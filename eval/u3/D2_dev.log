@@ -1,0 +1,26 @@
+[D2/dev] items=24844 todo=24780 cached=64
+Traceback (most recent call last):
+  File "eval\u3\score_u3.py", line 168, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "eval\u3\score_u3.py", line 142, in main
+    ram_gate(f"u3 {det}/{mode} batch {b}")
+  File "eval\u3\..\content_common.py", line 60, in ram_gate
+    raise Stop(f"RAM gate: {free} MB free before {label}; >={RAM_GATE_MB} MB required")
+content_common.Stop: RAM gate: 1800 MB free before u3 D2/dev batch 0; >=2000 MB required
+[D2/dev] items=24844 todo=24684 cached=160
+  batch 0: 192 (17863 ms py_peak 1054.9MB)
+Traceback (most recent call last):
+  File "eval\u3\score_u3.py", line 168, in <module>
+    return 0
+             
+  File "eval\u3\score_u3.py", line 142, in main
+    print(f"[{det}/{mode}] items={len(items)} todo={len(todo)} "
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "eval\u3\..\content_common.py", line 60, in ram_gate
+    raise Stop(f"RAM gate: {free} MB free before {label}; >={RAM_GATE_MB} MB required")
+content_common.Stop: RAM gate: 1989 MB free before u3 D2/dev batch 24; >=2000 MB required
+[D2/dev] items=24844 todo=23916 cached=928
+  [gate retry 0] RAM gate: 329 MB free before u3 D2/dev batch 0; >=2000 MB required
+  [gate retry 1] RAM gate: 854 MB free before u3 D2/dev batch 0; >=2000 MB required
+  [gate retry 2] RAM gate: 714 MB free before u3 D2/dev batch 0; >=2000 MB required

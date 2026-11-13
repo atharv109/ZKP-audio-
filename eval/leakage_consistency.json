@@ -1,0 +1,207 @@
+{
+  "settings": {
+    "a_no_guard": {
+      "rows": [
+        {
+          "lo": 1780297200,
+          "hi": 1780865999,
+          "holder": "ACCEPT",
+          "verify": "ACCEPT",
+          "verify_ms": 706,
+          "hold_ms": 708,
+          "peak_node_mb": 0,
+          "peak_python_mb": 0
+        },
+        {
+          "lo": 1780290000,
+          "hi": 1780865999,
+          "holder": "ACCEPT",
+          "verify": "ACCEPT",
+          "verify_ms": 677,
+          "hold_ms": 733,
+          "peak_node_mb": 0,
+          "peak_python_mb": 0
+        },
+        {
+          "lo": 1780295000,
+          "hi": 1780865999,
+          "holder": "ACCEPT",
+          "verify": "ACCEPT",
+          "verify_ms": 676,
+          "hold_ms": 698,
+          "peak_node_mb": 0,
+          "peak_python_mb": 0
+        },
+        {
+          "lo": 1780297000,
+          "hi": 1780865999,
+          "holder": "ACCEPT",
+          "verify": "ACCEPT",
+          "verify_ms": 699,
+          "hold_ms": 715,
+          "peak_node_mb": 0,
+          "peak_python_mb": 0
+        },
+        {
+          "lo": 1780297150,
+          "hi": 1780865999,
+          "holder": "ACCEPT",
+          "verify": "ACCEPT",
+          "verify_ms": 693,
+          "hold_ms": 680,
+          "peak_node_mb": 50.4,
+          "peak_python_mb": 0
+        }
+      ],
+      "consistent": true,
+      "n_prove_verify": 5
+    },
+    "b_min_width": {
+      "rows": [
+        {
+          "lo": 1780280000,
+          "hi": 1780865999,
+          "holder": "ACCEPT",
+          "verify": "ACCEPT",
+          "verify_ms": 718,
+          "hold_ms": 669,
+          "peak_node_mb": 55.6,
+          "peak_python_mb": 0
+        },
+        {
+          "lo": 1780285000,
+          "hi": 1780865999,
+          "holder": "ACCEPT",
+          "verify": "ACCEPT",
+          "verify_ms": 693,
+          "hold_ms": 730,
+          "peak_node_mb": 0,
+          "peak_python_mb": 0
+        },
+        {
+          "lo": 1780290000,
+          "hi": 1780865999,
+          "holder": "ACCEPT",
+          "verify": "ACCEPT",
+          "verify_ms": 677,
+          "hold_ms": 701,
+          "peak_node_mb": 0,
+          "peak_python_mb": 0
+        },
+        {
+          "lo": 1780295000,
+          "hi": 1780865999,
+          "holder": "ACCEPT",
+          "verify": "ACCEPT",
+          "verify_ms": 720,
+          "hold_ms": 701,
+          "peak_node_mb": 0,
+          "peak_python_mb": 0
+        },
+        {
+          "lo": 1780297000,
+          "hi": 1780865999,
+          "holder": "ACCEPT",
+          "verify": "ACCEPT",
+          "verify_ms": 677,
+          "hold_ms": 715,
+          "peak_node_mb": 0,
+          "peak_python_mb": 0
+        }
+      ],
+      "consistent": true,
+      "n_prove_verify": 5
+    },
+    "c_grid": {
+      "rows": [
+        {
+          "lo": 1780297200,
+          "hi": 1780304399,
+          "holder": "ACCEPT",
+          "verify": "ACCEPT",
+          "verify_ms": 761,
+          "hold_ms": 687,
+          "peak_node_mb": 53,
+          "peak_python_mb": 0
+        },
+        {
+          "lo": 1780304400,
+          "hi": 1780311599,
+          "holder": "REFUSED",
+          "reason": "[holder] metadata does not satisfy policy: timestamp_range"
+        },
+        {
+          "lo": 1780308000,
+          "hi": 1780315199,
+          "holder": "REFUSED",
+          "reason": "[holder] metadata does not satisfy policy: timestamp_range"
+        },
+        {
+          "lo": 1780311600,
+          "hi": 1780318799,
+          "holder": "REFUSED",
+          "reason": "[holder] metadata does not satisfy policy: timestamp_range"
+        },
+        {
+          "lo": 1780318800,
+          "hi": 1780325999,
+          "holder": "REFUSED",
+          "reason": "[holder] metadata does not satisfy policy: timestamp_range"
+        },
+        {
+          "lo": 1780293600,
+          "hi": 1780300799,
+          "holder": "ACCEPT",
+          "verify": "ACCEPT",
+          "hold_ms": 708,
+          "verify_ms": 681
+        }
+      ],
+      "consistent": true,
+      "n_prove_verify": 2
+    }
+  },
+  "peaks": {
+    "holder_py": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "holder_node": [
+      0,
+      49.9,
+      0,
+      0,
+      29.1,
+      35.5,
+      0,
+      0,
+      0,
+      0,
+      31.8
+    ],
+    "verify_node": [
+      0,
+      0,
+      0,
+      0,
+      50.4,
+      55.6,
+      0,
+      0,
+      0,
+      0,
+      53
+    ]
+  },
+  "now": "2026-11-04T20:36:49.780Z",
+  "audio": "ASVspoof2019_LA_eval/flac/LA_E_1250691.flac"
+}

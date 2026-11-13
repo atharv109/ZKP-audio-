@@ -1,0 +1,558 @@
+{
+ "clean_enroll": {
+  "LA_E_1002769": "enrolled",
+  "LA_E_1002073": "enrolled",
+  "LA_E_1000841": "enrolled",
+  "LA_E_1000147": "enrolled",
+  "LA_E_1000791": "enrolled",
+  "LA_E_1001476": "enrolled",
+  "LA_E_1001964": "enrolled",
+  "LA_E_1000989": "enrolled",
+  "LA_E_1000273": "enrolled",
+  "LA_E_1003846": "enrolled",
+  "LA_E_1001232": "enrolled",
+  "LA_E_1001976": "enrolled",
+  "LA_E_1002282": "enrolled",
+  "LA_E_1006026": "enrolled",
+  "LA_E_1002394": "enrolled",
+  "LA_E_1001893": "enrolled",
+  "LA_E_1001320": "enrolled",
+  "LA_E_1001227": "enrolled",
+  "LA_E_1006563": "enrolled",
+  "LA_E_1005307": "enrolled",
+  "LA_E_1004506": "enrolled",
+  "LA_E_1002802": "enrolled",
+  "LA_E_1004546": "enrolled",
+  "LA_E_1002947": "enrolled",
+  "LA_E_1002683": "enrolled",
+  "LA_E_1003257": "enrolled",
+  "LA_E_1006831": "enrolled",
+  "LA_E_1002658": "enrolled",
+  "LA_E_1003768": "enrolled",
+  "LA_E_1002474": "enrolled",
+  "LA_E_1005177": "enrolled",
+  "LA_E_1014516": "enrolled",
+  "LA_E_1008108": "enrolled",
+  "LA_E_1011107": "enrolled",
+  "LA_E_1002990": "enrolled",
+  "LA_E_1008606": "enrolled",
+  "LA_E_1004665": "enrolled",
+  "LA_E_1003530": "enrolled",
+  "LA_E_1004940": "enrolled",
+  "LA_E_1006886": "enrolled",
+  "LA_E_1009254": "enrolled",
+  "LA_E_1007069": "enrolled",
+  "LA_E_1006317": "enrolled",
+  "LA_E_1005565": "enrolled",
+  "LA_E_1015648": "enrolled",
+  "LA_E_1009522": "enrolled",
+  "LA_E_1011816": "enrolled",
+  "LA_E_1003228": "enrolled",
+  "LA_E_1009324": "enrolled",
+  "LA_E_1004704": "enrolled"
+ },
+ "a8": {
+  "LA_E_1002769": {
+   "stage": "full-verify-accept",
+   "reason": "[holder] refusing existing outdir: outputs\\v4\\u1_att\\a8_proofs\\LA_E_1002769"
+  },
+  "LA_E_1002073": {
+   "stage": "refused",
+   "reason": "[issuer] refusing: enrollment decision = spoof (score -1.944639 at threshold -0.9449426). No record written. (Use --allow-spoof-enrollment to issue a flagged=true record.)"
+  },
+  "LA_E_1000841": {
+   "stage": "full-verify-accept",
+   "reason": "[holder] refusing existing outdir: outputs\\v4\\u1_att\\a8_proofs\\LA_E_1000841"
+  },
+  "LA_E_1000147": {
+   "stage": "refused",
+   "reason": "[issuer] refusing: enrollment decision = spoof (score -2.261532 at threshold -0.9449426). No record written. (Use --allow-spoof-enrollment to issue a flagged=true record.)"
+  },
+  "LA_E_1000791": {
+   "stage": "full-verify-accept",
+   "reason": "[holder] refusing existing outdir: outputs\\v4\\u1_att\\a8_proofs\\LA_E_1000791"
+  },
+  "LA_E_1001476": {
+   "stage": "refused",
+   "reason": "[issuer] refusing: enrollment decision = spoof (score -2.685462 at threshold -0.9449426). No record written. (Use --allow-spoof-enrollment to issue a flagged=true record.)"
+  },
+  "LA_E_1001964": {
+   "stage": "refused",
+   "reason": "[issuer] refusing: enrollment decision = spoof (score -1.541037 at threshold -0.9449426). No record written. (Use --allow-spoof-enrollment to issue a flagged=true record.)"
+  },
+  "LA_E_1000989": {
+   "stage": "full-verify-accept",
+   "reason": "[holder] refusing existing outdir: outputs\\v4\\u1_att\\a8_proofs\\LA_E_1000989"
+  },
+  "LA_E_1000273": {
+   "stage": "refused",
+   "reason": "[issuer] refusing: enrollment decision = spoof (score -4.862081 at threshold -0.9449426). No record written. (Use --allow-spoof-enrollment to issue a flagged=true record.)"
+  },
+  "LA_E_1003846": {
+   "stage": "refused",
+   "reason": "[issuer] refusing: enrollment decision = spoof (score -2.665122 at threshold -0.9449426). No record written. (Use --allow-spoof-enrollment to issue a flagged=true record.)"
+  },
+  "LA_E_1001232": {
+   "stage": "full-verify-accept",
+   "reason": "[holder] refusing existing outdir: outputs\\v4\\u1_att\\a8_proofs\\LA_E_1001232"
+  },
+  "LA_E_1001976": {
+   "stage": "full-verify-accept",
+   "reason": "[holder] refusing existing outdir: outputs\\v4\\u1_att\\a8_proofs\\LA_E_1001976"
+  },
+  "LA_E_1002282": {
+   "stage": "refused",
+   "reason": "[issuer] refusing: enrollment decision = spoof (score -3.747503 at threshold -0.9449426). No record written. (Use --allow-spoof-enrollment to issue a flagged=true record.)"
+  },
+  "LA_E_1006026": {
+   "stage": "full-verify-accept",
+   "reason": "[holder] refusing existing outdir: outputs\\v4\\u1_att\\a8_proofs\\LA_E_1006026"
+  },
+  "LA_E_1002394": {
+   "stage": "refused",
+   "reason": "[issuer] refusing: enrollment decision = spoof (score -0.948882 at threshold -0.9449426). No record written. (Use --allow-spoof-enrollment to issue a flagged=true record.)"
+  },
+  "LA_E_1001893": {
+   "stage": "full-verify-accept",
+   "reason": "[holder] refusing existing outdir: outputs\\v4\\u1_att\\a8_proofs\\LA_E_1001893"
+  },
+  "LA_E_1001320": {
+   "stage": "full-verify-accept",
+   "reason": "[holder] refusing existing outdir: outputs\\v4\\u1_att\\a8_proofs\\LA_E_1001320"
+  },
+  "LA_E_1001227": {
+   "stage": "refused",
+   "reason": "[issuer] refusing: enrollment decision = spoof (score -3.037881 at threshold -0.9449426). No record written. (Use --allow-spoof-enrollment to issue a flagged=true record.)"
+  },
+  "LA_E_1006563": {
+   "stage": "refused",
+   "reason": "[issuer] refusing: enrollment decision = spoof (score -1.362462 at threshold -0.9449426). No record written. (Use --allow-spoof-enrollment to issue a flagged=true record.)"
+  },
+  "LA_E_1005307": {
+   "stage": "refused",
+   "reason": "[issuer] refusing: enrollment decision = spoof (score -1.330052 at threshold -0.9449426). No record written. (Use --allow-spoof-enrollment to issue a flagged=true record.)"
+  },
+  "LA_E_1004506": {
+   "stage": "full-verify-accept",
+   "reason": "[holder] refusing existing outdir: outputs\\v4\\u1_att\\a8_proofs\\LA_E_1004506"
+  },
+  "LA_E_1002802": {
+   "stage": "refused",
+   "reason": "[issuer] refusing: enrollment decision = spoof (score -1.813789 at threshold -0.9449426). No record written. (Use --allow-spoof-enrollment to issue a flagged=true record.)"
+  },
+  "LA_E_1004546": {
+   "stage": "full-verify-accept",
+   "reason": "[holder] refusing existing outdir: outputs\\v4\\u1_att\\a8_proofs\\LA_E_1004546"
+  },
+  "LA_E_1002947": {
+   "stage": "full-verify-accept",
+   "reason": "[holder] refusing existing outdir: outputs\\v4\\u1_att\\a8_proofs\\LA_E_1002947"
+  },
+  "LA_E_1002683": {
+   "stage": "full-verify-accept",
+   "reason": "[holder] refusing existing outdir: outputs\\v4\\u1_att\\a8_proofs\\LA_E_1002683"
+  },
+  "LA_E_1003257": {
+   "stage": "full-verify-accept",
+   "reason": "[holder] refusing existing outdir: outputs\\v4\\u1_att\\a8_proofs\\LA_E_1003257"
+  },
+  "LA_E_1006831": {
+   "stage": "refused",
+   "reason": "[issuer] refusing: enrollment decision = spoof (score -1.757220 at threshold -0.9449426). No record written. (Use --allow-spoof-enrollment to issue a flagged=true record.)"
+  },
+  "LA_E_1002658": {
+   "stage": "full-verify-accept",
+   "reason": "[holder] refusing existing outdir: outputs\\v4\\u1_att\\a8_proofs\\LA_E_1002658"
+  },
+  "LA_E_1003768": {
+   "stage": "refused",
+   "reason": "[issuer] refusing: enrollment decision = spoof (score -5.955874 at threshold -0.9449426). No record written. (Use --allow-spoof-enrollment to issue a flagged=true record.)"
+  },
+  "LA_E_1002474": {
+   "stage": "full-verify-accept",
+   "reason": "[holder] refusing existing outdir: outputs\\v4\\u1_att\\a8_proofs\\LA_E_1002474"
+  },
+  "LA_E_1005177": {
+   "stage": "full-verify-accept",
+   "reason": "[holder] refusing existing outdir: outputs\\v4\\u1_att\\a8_proofs\\LA_E_1005177"
+  },
+  "LA_E_1014516": {
+   "stage": "full-verify-accept",
+   "reason": "[holder] refusing existing outdir: outputs\\v4\\u1_att\\a8_proofs\\LA_E_1014516"
+  },
+  "LA_E_1008108": {
+   "stage": "full-verify-accept",
+   "reason": "[holder] refusing existing outdir: outputs\\v4\\u1_att\\a8_proofs\\LA_E_1008108"
+  },
+  "LA_E_1011107": {
+   "stage": "full-verify-accept",
+   "reason": "[holder] refusing existing outdir: outputs\\v4\\u1_att\\a8_proofs\\LA_E_1011107"
+  },
+  "LA_E_1002990": {
+   "stage": "refused",
+   "reason": "[issuer] refusing: enrollment decision = spoof (score -12.600526 at threshold -0.9449426). No record written. (Use --allow-spoof-enrollment to issue a flagged=true record.)"
+  },
+  "LA_E_1008606": {
+   "stage": "refused",
+   "reason": "[issuer] refusing: enrollment decision = spoof (score -3.159997 at threshold -0.9449426). No record written. (Use --allow-spoof-enrollment to issue a flagged=true record.)"
+  },
+  "LA_E_1004665": {
+   "stage": "refused",
+   "reason": "[issuer] refusing: enrollment decision = spoof (score -2.097724 at threshold -0.9449426). No record written. (Use --allow-spoof-enrollment to issue a flagged=true record.)"
+  },
+  "LA_E_1003530": {
+   "stage": "full-verify-accept",
+   "reason": "[holder] refusing existing outdir: outputs\\v4\\u1_att\\a8_proofs\\LA_E_1003530"
+  },
+  "LA_E_1004940": {
+   "stage": "full-verify-accept",
+   "reason": "[holder] refusing existing outdir: outputs\\v4\\u1_att\\a8_proofs\\LA_E_1004940"
+  },
+  "LA_E_1006886": {
+   "stage": "full-verify-accept",
+   "reason": "[holder] refusing existing outdir: outputs\\v4\\u1_att\\a8_proofs\\LA_E_1006886"
+  },
+  "LA_E_1009254": {
+   "stage": "full-verify-accept",
+   "reason": "[holder] refusing existing outdir: outputs\\v4\\u1_att\\a8_proofs\\LA_E_1009254"
+  },
+  "LA_E_1007069": {
+   "stage": "refused",
+   "reason": "[issuer] refusing: enrollment decision = spoof (score -3.932673 at threshold -0.9449426). No record written. (Use --allow-spoof-enrollment to issue a flagged=true record.)"
+  },
+  "LA_E_1006317": {
+   "stage": "full-verify-accept",
+   "reason": "[holder] refusing existing outdir: outputs\\v4\\u1_att\\a8_proofs\\LA_E_1006317"
+  },
+  "LA_E_1005565": {
+   "stage": "refused",
+   "reason": "[issuer] refusing: enrollment decision = spoof (score -4.862016 at threshold -0.9449426). No record written. (Use --allow-spoof-enrollment to issue a flagged=true record.)"
+  },
+  "LA_E_1015648": {
+   "stage": "refused",
+   "reason": "[issuer] refusing: enrollment decision = spoof (score -3.226166 at threshold -0.9449426). No record written. (Use --allow-spoof-enrollment to issue a flagged=true record.)"
+  },
+  "LA_E_1009522": {
+   "stage": "full-verify-accept",
+   "reason": "[holder] refusing existing outdir: outputs\\v4\\u1_att\\a8_proofs\\LA_E_1009522"
+  },
+  "LA_E_1011816": {
+   "stage": "full-verify-accept",
+   "reason": "[holder] refusing existing outdir: outputs\\v4\\u1_att\\a8_proofs\\LA_E_1011816"
+  },
+  "LA_E_1003228": {
+   "stage": "refused",
+   "reason": "[issuer] refusing: enrollment decision = spoof (score -3.248513 at threshold -0.9449426). No record written. (Use --allow-spoof-enrollment to issue a flagged=true record.)"
+  },
+  "LA_E_1009324": {
+   "stage": "full-verify-accept",
+   "reason": "[holder] refusing existing outdir: outputs\\v4\\u1_att\\a8_proofs\\LA_E_1009324"
+  },
+  "LA_E_1004704": {
+   "stage": "refused",
+   "reason": "[issuer] refusing: enrollment decision = spoof (score -1.269786 at threshold -0.9449426). No record written. (Use --allow-spoof-enrollment to issue a flagged=true record.)"
+  }
+ },
+ "crypto": {
+  "LA_E_1002769": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1061586": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1002073": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1073886": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1000841": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1096390": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1000147": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1102017": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1000791": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1152151": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1001476": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1285825": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1001964": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1342706": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1000989": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1370800": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1000273": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1432098": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1003846": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1439559": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1001232": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1489624": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1001976": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1510369": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1002282": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1605288": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1006026": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1616928": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1002394": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1636665": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1001893": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1649471": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1001320": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1654130": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1001227": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1704953": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1006563": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1725200": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1005307": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1729203": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1004506": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1741926": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1002802": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1831235": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1004546": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1955285": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1002947": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1967135": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1002683": {
+   "verdict": "REJECT"
+  },
+  "LA_E_2016932": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1003257": {
+   "verdict": "REJECT"
+  },
+  "LA_E_2097442": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1006831": {
+   "verdict": "REJECT"
+  },
+  "LA_E_2161075": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1002658": {
+   "verdict": "REJECT"
+  },
+  "LA_E_2163780": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1003768": {
+   "verdict": "REJECT"
+  },
+  "LA_E_2166857": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1002474": {
+   "verdict": "REJECT"
+  },
+  "LA_E_2221290": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1005177": {
+   "verdict": "REJECT"
+  },
+  "LA_E_2288596": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1014516": {
+   "verdict": "REJECT"
+  },
+  "LA_E_2366626": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1008108": {
+   "verdict": "REJECT"
+  },
+  "LA_E_2379520": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1011107": {
+   "verdict": "REJECT"
+  },
+  "LA_E_2383074": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1002990": {
+   "verdict": "REJECT"
+  },
+  "LA_E_2386688": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1008606": {
+   "verdict": "REJECT"
+  },
+  "LA_E_2476450": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1004665": {
+   "verdict": "REJECT"
+  },
+  "LA_E_2555952": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1003530": {
+   "verdict": "REJECT"
+  },
+  "LA_E_2616351": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1004940": {
+   "verdict": "REJECT"
+  },
+  "LA_E_2622522": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1006886": {
+   "verdict": "REJECT"
+  },
+  "LA_E_2650697": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1009254": {
+   "verdict": "REJECT"
+  },
+  "LA_E_2825647": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1007069": {
+   "verdict": "REJECT"
+  },
+  "LA_E_2845160": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1006317": {
+   "verdict": "REJECT"
+  },
+  "LA_E_2852583": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1005565": {
+   "verdict": "REJECT"
+  },
+  "LA_E_2947509": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1015648": {
+   "verdict": "REJECT"
+  },
+  "LA_E_2970071": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1009522": {
+   "verdict": "REJECT"
+  },
+  "LA_E_2992403": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1011816": {
+   "verdict": "REJECT"
+  },
+  "LA_E_3046026": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1003228": {
+   "verdict": "REJECT"
+  },
+  "LA_E_3289697": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1009324": {
+   "verdict": "REJECT"
+  },
+  "LA_E_3293534": {
+   "verdict": "REJECT"
+  },
+  "LA_E_1004704": {
+   "verdict": "REJECT"
+  },
+  "LA_E_3299996": {
+   "verdict": "REJECT"
+  }
+ }
+}

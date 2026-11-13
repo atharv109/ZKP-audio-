@@ -1,0 +1,415 @@
+[D3/clean] items=400 todo=400 cached=0
+Traceback (most recent call last):
+  FiTraceback (most recent call last):
+  File "eval\u3\score_u3.py", line 222, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "eval\u3\score_u3.py", line 213, in main
+    os.remove(outp)
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'eval\\_u3_batch_D3_clean_0_out.csv'
+
+Traceback (most recent call last):
+  File "eval\u3\score_u3.py", line 222, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "eval\u3\score_u3.py", line 212, in main
+    os.remove(lp)
+FileNotFoundError: [WinError 2] The system cannot find the file specified: 'eval\\_u3_batch_D3_clean_0.csv'
+enance\\eval\\_u3_batch_D3_clean_0.csv'
+[D3/a2] items=2800 todo=2800 cached=0
+  batch 0: 32 (20280 ms py_peak 474.4MB)
+  batch 40: 1312 (19289 ms py_peak 501.8MB)
+  batch 80: 2592 (18734 ms py_peak 515.4MB)
+DONE [D3/a2] 2800/2800
+[D3/a3] items=1800 todo=1800 cached=0
+  batch 0: 32 (20414 ms py_peak 508.2MB)
+  batch 40: 1312 (23620 ms py_peak 508.3MB)
+DONE [D3/a3] 1800/1800
+[D3/u1c1] items=100 todo=100 cached=0
+  batch 0: 32 (18741 ms py_peak 599.3MB)
+DONE [D3/u1c1] 100/100
+[D3/u1c2] items=100 todo=100 cached=0
+  batch 0: 32 (17160 ms py_peak 601.7MB)
+DONE [D3/u1c2] 100/100
+Traceback (most recent call last):
+  File "eval\u3\u3_metrics.py", line 239, in <module>
+    o = write_all(sys.argv[1])
+        ^^^^^^^^^^^^^^^^^^^^^^
+  File "eval\u3\u3_metrics.py", line 166, in write_all
+    out = json.load(open(os.path.join(U3, f"u3_metrics_{det}.json")))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'eval\\u3\\u3_metrics_D3.json'
+[D3/clean] items=400 todo=336 cached=64
+  batch 0: 96 (38683 ms py_peak 541.8MB)
+DONE [D3/clean] 400/400
+[D3/eval] items=13855 todo=13855 cached=0
+  [gate retry 0] RAM gate: 1274 MB free before u3 D3/eval batch 0; >=1500 MB required
+  [gate retry 1] RAM gate: 1325 MB free before u3 D3/eval batch 0; >=1500 MB required
+  [gate retry 2] RAM gate: 1382 MB free before u3 D3/eval batch 0; >=1500 MB required
+  [gate retry 3] RAM gate: 1427 MB free before u3 D3/eval batch 0; >=1500 MB required
+  [gate retry 4] RAM gate: 1433 MB free before u3 D3/eval batch 0; >=1500 MB required
+  batch 0: 32 (8543 ms py_peak 546.7MB)
+  batch 40: 1312 (7984 ms py_peak 547.8MB)
+  batch 80: 2592 (8514 ms py_peak 521.5MB)
+  batch 120: 3872 (7996 ms py_peak 533.8MB)
+  batch 160: 5152 (7986 ms py_peak 538MB)
+  batch 200: 6432 (21976 ms py_peak 532.9MB)
+Traceback (most recent call last):
+  File "eval\u3\..\content_common.py", line 82, in measure
+    r = subprocess.run(ps_cmd, capture_output=True, text=True, encoding="utf-8",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\subprocess.py", line 550, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\subprocess.py", line 1228, in communicate
+    sts = self.wait(timeout=self._remaining_time(endtime))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\subprocess.py", line 1593, in _wait
+    raise TimeoutExpired(self.args, timeout)
+subprocess.TimeoutExpired: Command '['powershell', '-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', 'eval\\_measure.ps1', '-Exe', '<HOME>\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe', '-ArgList', 'audio_benchmark\\run_inference.py --backend rawnet2_nii --weights <HOME>\\external\\nii_asvspoof\\rawnet2\\01\\__pretrained\\trained_network.pt --labels eval\\_u3_batch_D3_eval_208.csv --out eval\\_u3_batch_D3_eval_208_out.csv --threshold 0.0', '-WorkDir', '', '-StdoutFile', 'outputs\\v3\\eval_content\\logs\\u3-D3-eval-b208.1794323532932.out', '-StderrFile', 'outputs\\v3\\eval_content\\logs\\u3-D3-eval-b208.1794323532932.err']' timed out after -19237.266000000003 seconds
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "eval\u3\score_u3.py", line 222, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "eval\u3\score_u3.py", line 206, in main
+    r = run_cmd(cmd, f"u3-{det}-{mode}-b{b}",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "eval\u3\..\content_common.py", line 98, in run_cmd
+    m = measure(args, base + ".out", base + ".err", timeout)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "eval\u3\..\content_common.py", line 85, in measure
+    raise Stop(f"command timed out after {timeout}s: {args[0]} "
+content_common.Stop: command timed out after 900s: <HOME>\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\python.exe (historical -sync hang hazard; resumed runs retry)
+[D3/eval] items=13855 todo=7199 cached=6656
+  [gate retry 0] RAM gate: 760 MB free before u3 D3/eval batch 0; >=1500 MB required
+  [gate retry 1] RAM gate: 282 MB free before u3 D3/eval batch 0; >=1500 MB required
+  [gate retry 2] RAM gate: 596 MB free before u3 D3/eval batch 0; >=1500 MB required
+  [gate retry 3] RAM gate: 240 MB free before u3 D3/eval batch 0; >=1500 MB required
+  [gate retry 4] RAM gate: 822 MB free before u3 D3/eval batch 0; >=1500 MB required
+  [gate retry 5] RAM gate: 1166 MB free before u3 D3/eval batch 0; >=1500 MB required
+  [gate retry 6] RAM gate: 850 MB free before u3 D3/eval batch 0; >=1500 MB required
+  [gate retry 7] RAM gate: 723 MB free before u3 D3/eval batch 0; >=1500 MB required
+  [gate retry 8] RAM gate: 434 MB free before u3 D3/eval batch 0; >=1500 MB required
+  [gate retry 9] RAM gate: 612 MB free before u3 D3/eval batch 0; >=1500 MB required
+  [gate retry 10] RAM gate: 763 MB free before u3 D3/eval batch 0; >=1500 MB required
+  [gate retry 11] RAM gate: 873 MB free before u3 D3/eval batch 0; >=1500 MB required
+  [gate retry 12] RAM gate: 435 MB free before u3 D3/eval batch 0; >=1500 MB required
+  [gate retry 13] RAM gate: 280 MB free before u3 D3/eval batch 0; >=1500 MB required
+  [gate retry 14] RAM gate: 386 MB free before u3 D3/eval batch 0; >=1500 MB required
+  [gate retry 15] RAM gate: 462 MB free before u3 D3/eval batch 0; >=1500 MB required
+  [gate retry 16] RAM gate: 1168 MB free before u3 D3/eval batch 0; >=1500 MB required
+  [gate retry 17] RAM gate: 1335 MB free before u3 D3/eval batch 0; >=1500 MB required
+  batch 0: 6688 (100692 ms py_peak 536.6MB)
+  [gate retry 0] RAM gate: 684 MB free before u3 D3/eval batch 1; >=1500 MB required
+  [gate retry 1] RAM gate: 1191 MB free before u3 D3/eval batch 1; >=1500 MB required
+  [gate retry 2] RAM gate: 967 MB free before u3 D3/eval batch 1; >=1500 MB required
+  [gate retry 3] RAM gate: 976 MB free before u3 D3/eval batch 1; >=1500 MB required
+  [gate retry 0] RAM gate: 1055 MB free before u3 D3/eval batch 2; >=1500 MB required
+  [gate retry 0] RAM gate: 1184 MB free before u3 D3/eval batch 3; >=1500 MB required
+  [gate retry 0] RAM gate: 1498 MB free before u3 D3/eval batch 16; >=1500 MB required
+  batch 40: 7968 (37849 ms py_peak 662.8MB)
+  batch 80: 9248 (36985 ms py_peak 745.3MB)
+Traceback (most recent call last):
+  File "eval\u3\..\content_common.py", line 82, in measure
+    r = subprocess.run(ps_cmd, capture_output=True, text=True, encoding="utf-8",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\subprocess.py", line 550, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\subprocess.py", line 1228, in communicate
+    sts = self.wait(timeout=self._remaining_time(endtime))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\subprocess.py", line 1593, in _wait
+    raise TimeoutExpired(self.args, timeout)
+subprocess.TimeoutExpired: Command '['powershell', '-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', 'eval\\_measure.ps1', '-Exe', '<HOME>\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe', '-ArgList', 'audio_benchmark\\run_inference.py --backend rawnet2_nii --weights <HOME>\\external\\nii_asvspoof\\rawnet2\\01\\__pretrained\\trained_network.pt --labels eval\\_u3_batch_D3_eval_97.csv --out eval\\_u3_batch_D3_eval_97_out.csv --threshold 0.0', '-WorkDir', '', '-StdoutFile', 'outputs\\v3\\eval_content\\logs\\u3-D3-eval-b97.1794349648478.out', '-StderrFile', 'outputs\\v3\\eval_content\\logs\\u3-D3-eval-b97.1794349648478.err']' timed out after -50.82799999997951 seconds
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "eval\u3\score_u3.py", line 222, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "eval\u3\score_u3.py", line 206, in main
+    r = run_cmd(cmd, f"u3-{det}-{mode}-b{b}",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "eval\u3\..\content_common.py", line 98, in run_cmd
+    m = measure(args, base + ".out", base + ".err", timeout)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "eval\u3\..\content_common.py", line 85, in measure
+    raise Stop(f"command timed out after {timeout}s: {args[0]} "
+content_common.Stop: command timed out after 900s: <HOME>\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\python.exe (historical -sync hang hazard; resumed runs retry)
+[D3/eval] items=13855 todo=4095 cached=9760
+  [gate retry 0] RAM gate: 1487 MB free before u3 D3/eval batch 0; >=1500 MB required
+  batch 0: 9792 (40508 ms py_peak 857MB)
+  [gate retry 0] RAM gate: 1386 MB free before u3 D3/eval batch 3; >=1500 MB required
+Traceback (most recent call last):
+  File "eval\u3\..\content_common.py", line 82, in measure
+    r = subprocess.run(ps_cmd, capture_output=True, text=True, encoding="utf-8",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\subprocess.py", line 550, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\subprocess.py", line 1228, in communicate
+    sts = self.wait(timeout=self._remaining_time(endtime))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\subprocess.py", line 1593, in _wait
+    raise TimeoutExpired(self.args, timeout)
+subprocess.TimeoutExpired: Command '['powershell', '-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', 'eval\\_measure.ps1', '-Exe', '<HOME>\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe', '-ArgList', 'audio_benchmark\\run_inference.py --backend rawnet2_nii --weights <HOME>\\external\\nii_asvspoof\\rawnet2\\01\\__pretrained\\trained_network.pt --labels eval\\_u3_batch_D3_eval_12.csv --out eval\\_u3_batch_D3_eval_12_out.csv --threshold 0.0', '-WorkDir', '', '-StdoutFile', 'outputs\\v3\\eval_content\\logs\\u3-D3-eval-b12.1794351184201.out', '-StderrFile', 'outputs\\v3\\eval_content\\logs\\u3-D3-eval-b12.1794351184201.err']' timed out after -896.2339999999967 seconds
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "eval\u3\score_u3.py", line 222, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "eval\u3\score_u3.py", line 206, in main
+    r = run_cmd(cmd, f"u3-{det}-{mode}-b{b}",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "eval\u3\..\content_common.py", line 98, in run_cmd
+    m = measure(args, base + ".out", base + ".err", timeout)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "eval\u3\..\content_common.py", line 85, in measure
+    raise Stop(f"command timed out after {timeout}s: {args[0]} "
+content_common.Stop: command timed out after 900s: <HOME>\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\python.exe (historical -sync hang hazard; resumed runs retry)
+[D3/eval] items=13855 todo=3711 cached=10144
+  [gate retry 0] RAM gate: 1187 MB free before u3 D3/eval batch 0; >=1500 MB required
+  [gate retry 1] RAM gate: 1355 MB free before u3 D3/eval batch 0; >=1500 MB required
+  batch 0: 10176 (48246 ms py_peak 669.6MB)
+  [gate retry 0] RAM gate: 1330 MB free before u3 D3/eval batch 1; >=1500 MB required
+  [gate retry 1] RAM gate: 1070 MB free before u3 D3/eval batch 1; >=1500 MB required
+  [gate retry 2] RAM gate: 790 MB free before u3 D3/eval batch 1; >=1500 MB required
+  [gate retry 3] RAM gate: 589 MB free before u3 D3/eval batch 1; >=1500 MB required
+  [gate retry 4] RAM gate: 575 MB free before u3 D3/eval batch 1; >=1500 MB required
+  [gate retry 5] RAM gate: 561 MB free before u3 D3/eval batch 1; >=1500 MB required
+  [gate retry 6] RAM gate: 645 MB free before u3 D3/eval batch 1; >=1500 MB required
+  [gate retry 7] RAM gate: 609 MB free before u3 D3/eval batch 1; >=1500 MB required
+  [gate retry 8] RAM gate: 662 MB free before u3 D3/eval batch 1; >=1500 MB required
+  [gate retry 9] RAM gate: 1194 MB free before u3 D3/eval batch 1; >=1500 MB required
+  [gate retry 0] RAM gate: 949 MB free before u3 D3/eval batch 3; >=1500 MB required
+  [gate retry 0] RAM gate: 1451 MB free before u3 D3/eval batch 27; >=1500 MB required
+  [gate retry 1] RAM gate: 1297 MB free before u3 D3/eval batch 27; >=1500 MB required
+  [gate retry 2] RAM gate: 1065 MB free before u3 D3/eval batch 27; >=1500 MB required
+  [gate retry 3] RAM gate: 1207 MB free before u3 D3/eval batch 27; >=1500 MB required
+  [gate retry 4] RAM gate: 949 MB free before u3 D3/eval batch 27; >=1500 MB required
+  [gate retry 5] RAM gate: 726 MB free before u3 D3/eval batch 27; >=1500 MB required
+  [gate retry 6] RAM gate: 855 MB free before u3 D3/eval batch 27; >=1500 MB required
+  [gate retry 7] RAM gate: 1047 MB free before u3 D3/eval batch 27; >=1500 MB required
+  [gate retry 8] RAM gate: 1123 MB free before u3 D3/eval batch 27; >=1500 MB required
+  [gate retry 9] RAM gate: 1124 MB free before u3 D3/eval batch 27; >=1500 MB required
+  [gate retry 10] RAM gate: 1167 MB free before u3 D3/eval batch 27; >=1500 MB required
+  [gate retry 11] RAM gate: 1217 MB free before u3 D3/eval batch 27; >=1500 MB required
+  [gate retry 12] RAM gate: 1488 MB free before u3 D3/eval batch 27; >=1500 MB required
+  [gate retry 13] RAM gate: 917 MB free before u3 D3/eval batch 27; >=1500 MB required
+  [gate retry 14] RAM gate: 1056 MB free before u3 D3/eval batch 27; >=1500 MB required
+  [gate retry 0] RAM gate: 1412 MB free before u3 D3/eval batch 39; >=1500 MB required
+  [gate retry 1] RAM gate: 1318 MB free before u3 D3/eval batch 39; >=1500 MB required
+  [gate retry 2] RAM gate: 1382 MB free before u3 D3/eval batch 39; >=1500 MB required
+  [gate retry 3] RAM gate: 915 MB free before u3 D3/eval batch 39; >=1500 MB required
+  [gate retry 4] RAM gate: 998 MB free before u3 D3/eval batch 39; >=1500 MB required
+  batch 40: 11456 (19184 ms py_peak 540MB)
+  batch 80: 12736 (20706 ms py_peak 540.3MB)
+  [gate retry 0] RAM gate: 1395 MB free before u3 D3/eval batch 114; >=1500 MB required
+  [gate retry 0] RAM gate: 1390 MB free before u3 D3/eval batch 115; >=1500 MB required
+  [gate retry 1] RAM gate: 1420 MB free before u3 D3/eval batch 115; >=1500 MB required
+DONE [D3/eval] 13855/13855
+[D3] dev n=2548+1800 EER=1.7719% thr=-2.317568
+{
+ "detector": "D3",
+ "eval_subset": {
+  "n_sp": 6500,
+  "n_bo": 7355,
+  "far": [
+   0.148,
+   962,
+   6500
+  ],
+  "far_ci95": [
+   0.13953461538461537,
+   0.15661538461538463
+  ],
+  "frr": [
+   0.008157715839564922,
+   60,
+   7355
+  ],
+  "frr_ci95": [
+   0.006254248810333107,
+   0.010333106730115567
+  ],
+  "auc_bonadir": 0.9898005543063327,
+  "eer": [
+   0.0438129477592428,
+   0.113051
+  ]
+ },
+ "clean_sample": {
+  "n_sp": 200,
+  "n_bo": 200,
+  "far": [
+   0.15,
+   30,
+   200
+  ],
+  "far_ci95": [
+   0.1,
+   0.2
+  ],
+  "frr": [
+   0.025,
+   5,
+   200
+  ],
+  "frr_ci95": [
+   0.005,
+   0.05
+  ],
+  "auc_bonadir": 0.987675,
+  "eer": [
+   0.055,
+   -0.404611
+  ]
+ },
+ "a2_mp3_64k": {
+  "n_sp": 200,
+  "n_bo": 200,
+  "far": [
+   0.14,
+   28,
+   200
+  ],
+  "far_ci95": [
+   0.095,
+   0.19
+  ],
+  "frr": [
+   0.025,
+   5,
+   200
+  ],
+  "frr_ci95": [
+   0.005,
+   0.05
+  ],
+  "auc_bonadir": 0.986725,
+  "eer": [
+   0.05,
+   -0.497012
+  ]
+ },
+ "a2_mp3_32k": {
+  "n_sp": 200,
+  "n_bo": 200,
+  "far": [
+   0.15,
+   30,
+   200
+  ],
+  "far_ci95": [
+   0.105,
+   0.2
+  ],
+  "frr": [
+   0.03,
+   6,
+   200
+  ],
+  "frr_ci95": [
+   0.01,
+   0.055
+  ],
+  "auc_bonadir": 0.984875,
+  "eer": [
+   0.055,
+   -0.807778
+  ]
+ },
+ "a2_opus_32k": {
+  "n_sp": 200,
+  "n_bo": 200,
+  "far": [
+   0.1,
+   20,
+   200
+  ],
+  "far_ci95": [
+   0.06,
+   0.145
+  ],
+  "frr": [
+   0.03,
+   6,
+   200
+  ],
+  "frr_ci95": [
+   0.01,
+   0.055
+  ],
+  "auc_bonadir": 0.986825,
+  "eer": [
+   0.05,
+   -0.813816
+  ]
+ },
+ "a2_resample_8k_rt": {
+  "n_sp": 200,
+  "n_bo": 200,
+  "far": [
+   0.08,
+   16,
+   200
+  ],
+  "far_ci95": [
+   0.045,
+   0.12
+  ],
+  "frr": [
+   0.045,
+   9,
+   200
+  ],
+  "frr_ci95": [
+   0.02,
+   0.075
+  ],
+  "auc_bonadir": 0.98475,
+  "eer": [
+   0.06,
+   -1.93547
+  ]
+ },
+ "a2_noise_20db": {
+  "n_sp": 200,
+  "n_bo": 200,
+  "far": [
+   0.615,
+   123,
+   200
+  ],
+  "far_ci95": [
+   0.545,
+   0.68
+  ],
+  "frr": [
+   0.005,
+   1,
+   200
+  ],
+  "frr_ci95": [
+   0.0,
+   0.015
+  ],
+  "auc_bonadir": 0.981925,
+  "eer": [
+D3-EVAL-DONE

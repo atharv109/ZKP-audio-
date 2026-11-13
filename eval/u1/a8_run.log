@@ -1,0 +1,12 @@
+{
+ "clean_enroll_ok": 50,
+ "clean_enroll_refused": 0,
+ "a8_refused": 49,
+ "a8_signed": 1,
+ "a8_prove_fail": 1,
+ "a8_full_verify_accept": 0,
+ "a8_verify_reject": 0,
+ "crypto_reject": 100,
+ "crypto_accept_BAD": 0,
+ "crypto_holder_refuse": 0
+}

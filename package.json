@@ -1,0 +1,28 @@
+{
+  "name": "zkp-media-provenance",
+  "version": "1.0.0",
+  "description": "ZKP-Gated Media Provenance System - proves media authenticity without revealing private metadata",
+  "main": "index.js",
+  "scripts": {
+    "prepare-input": "node scripts/prepare_input.js",
+    "validate-row": "node scripts/validate_row.js",
+    "hash-media": "node scripts/hash_media.js"
+  },
+  "dependencies": {
+    "xlsx": "0.18.5"
+  },
+  "devDependencies": {
+    "circomlib": "2.0.5",
+    "circomlibjs": "0.1.7",
+    "snarkjs": "0.7.6"
+  },
+  "keywords": [
+    "zkp",
+    "provenance",
+    "blockchain",
+    "circom",
+    "media"
+  ],
+  "author": "",
+  "license": "MIT"
+}

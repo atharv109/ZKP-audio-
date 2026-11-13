@@ -1,0 +1,42 @@
+[D3/dev] items=4348 todo=3836 cached=512
+  batch 0: 544 (33966 ms py_peak 534.6MB)
+[D3/dev] items=4348 todo=2972 cached=1376
+  batch 0: 1408 (60934 ms py_peak 1047.8MB)
+Traceback (most recent call last):
+  File "eval\u3\..\content_common.py", line 82, in measure
+    r = subprocess.run(ps_cmd, capture_output=True, text=True, encoding="utf-8",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\subprocess.py", line 550, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\subprocess.py", line 1228, in communicate
+    sts = self.wait(timeout=self._remaining_time(endtime))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.12_3.12.2800.0_x64__qbz5n2kfra8p0\Lib\subprocess.py", line 1593, in _wait
+    raise TimeoutExpired(self.args, timeout)
+subprocess.TimeoutExpired: Command '['powershell', '-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', 'eval\\_measure.ps1', '-Exe', '<HOME>\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\python.exe', '-ArgList', 'audio_benchmark\\run_inference.py --backend rawnet2_nii --weights <HOME>\\external\\nii_asvspoof\\rawnet2\\01\\__pretrained\\trained_network.pt --labels eval\\_u3_batch_D3_dev_6.csv --out eval\\_u3_batch_D3_dev_6_out.csv --threshold 0.0', '-WorkDir', '', '-StdoutFile', 'outputs\\v3\\eval_content\\logs\\u3-D3-dev-b6.1794251866272.out', '-StderrFile', 'outputs\\v3\\eval_content\\logs\\u3-D3-dev-b6.1794251866272.err']' timed out after -610.0310000000172 seconds
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "eval\u3\score_u3.py", line 222, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "eval\u3\score_u3.py", line 206, in main
+    r = run_cmd(cmd, f"u3-{det}-{mode}-b{b}",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "eval\u3\..\content_common.py", line 98, in run_cmd
+    m = measure(args, base + ".out", base + ".err", timeout)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "eval\u3\..\content_common.py", line 85, in measure
+    raise Stop(f"command timed out after {timeout}s: {args[0]} "
+content_common.Stop: command timed out after 900s: <HOME>\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\python.exe (historical -sync hang hazard; resumed runs retry)
+[D3/dev] items=4348 todo=2780 cached=1568
+  batch 0: 1600 (59442 ms py_peak 1046.8MB)
+[D3/dev] items=4348 todo=2172 cached=2176
+  batch 0: 2208 (25649 ms py_peak 513.3MB)
+  batch 40: 3488 (18205 ms py_peak 524.1MB)
+DONE [D3/dev] 4348/4348

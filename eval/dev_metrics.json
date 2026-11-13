@@ -1,0 +1,10 @@
+{
+  "n_bonafide": 2548,
+  "n_spoof": 22296,
+  "eer_pooled_interpolated": 0.00510204081632653,
+  "threshold_at_eer": -0.944942612244898,
+  "eer_bisection": 0.00510753278706531,
+  "threshold_bisection": -0.9470719999999999,
+  "roc_auc": 0.9996414024747102,
+  "scores_source": "eval/dev_scores.json (full LA dev, frozen AASIST-L)"
+}

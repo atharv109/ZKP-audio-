@@ -1,0 +1,112 @@
+{
+  "05e1965ed274322b4146233030d80c8bdea401bdb952539da4a13a2ae4b44488": {
+    "issued_at": "2026-11-03T20:57:43.224759+00:00",
+    "metadata": {
+      "device_id": 1024,
+      "gps_lat": 408259,
+      "gps_long_abs": 778637,
+      "sensor_score": 77,
+      "timestamp": 1780298225
+    }
+  },
+  "1c4e2881382fcffac8c73312f490b659242ca30b2114da00c59474ccf3c2c50d": {
+    "issued_at": "2026-11-03T20:57:35.865870+00:00",
+    "metadata": {
+      "device_id": 1024,
+      "gps_lat": 408259,
+      "gps_long_abs": 778637,
+      "sensor_score": 77,
+      "timestamp": 1780298225
+    }
+  },
+  "2172692ef693fa6e6c10d57158098e68762f275da6e5b2d05d184a5583a4ed87": {
+    "issued_at": "2026-11-03T20:58:09.783899+00:00",
+    "metadata": {
+      "device_id": 1024,
+      "gps_lat": 408259,
+      "gps_long_abs": 778637,
+      "sensor_score": 77,
+      "timestamp": 1780298225
+    }
+  },
+  "5e73db12116319ab98846395e50d89074955eb20e84efce2bd63fa33880d1fe6": {
+    "issued_at": "2026-11-03T20:57:00.611915+00:00",
+    "metadata": {
+      "device_id": 1024,
+      "gps_lat": 408259,
+      "gps_long_abs": 778637,
+      "sensor_score": 77,
+      "timestamp": 1780298225
+    }
+  },
+  "60083f6d7d68d600d12eb6b6e6f41f1af76f048e43b0b8aad8ec3246ee255c12": {
+    "issued_at": "2026-11-03T20:58:03.462393+00:00",
+    "metadata": {
+      "device_id": 1024,
+      "gps_lat": 408259,
+      "gps_long_abs": 778637,
+      "sensor_score": 77,
+      "timestamp": 1780298225
+    }
+  },
+  "7dad0706013bbaed6209bd9ef3455f93c190575a22be0b1eac2ab8cbe9d6ee88": {
+    "issued_at": "2026-11-03T20:57:07.609169+00:00",
+    "metadata": {
+      "device_id": 1024,
+      "gps_lat": 408259,
+      "gps_long_abs": 778637,
+      "sensor_score": 77,
+      "timestamp": 1780298225
+    }
+  },
+  "7f103e10d755da595535df3b27cd79a6ae70d310abde384a25c803b142db01f4": {
+    "issued_at": "2026-11-03T20:57:50.180676+00:00",
+    "metadata": {
+      "device_id": 1024,
+      "gps_lat": 408259,
+      "gps_long_abs": 778637,
+      "sensor_score": 77,
+      "timestamp": 1780298225
+    }
+  },
+  "b87d99a60c38514b865a45f6e37b5f9b1c033ed430f8cc4426c15370adb2fdd3": {
+    "issued_at": "2026-11-03T20:57:56.590961+00:00",
+    "metadata": {
+      "device_id": 1024,
+      "gps_lat": 408259,
+      "gps_long_abs": 778637,
+      "sensor_score": 77,
+      "timestamp": 1780298225
+    }
+  },
+  "c9692b2127f6271221a53c7d06234d418d47bf801db16b7b00fe329c6c2ca211": {
+    "issued_at": "2026-11-03T20:57:30.100022+00:00",
+    "metadata": {
+      "device_id": 1024,
+      "gps_lat": 408259,
+      "gps_long_abs": 778637,
+      "sensor_score": 77,
+      "timestamp": 1780298225
+    }
+  },
+  "ed5c76ae7a582e8dfd5021cd4cb1b7d2ad9d83adf1337e913628d54a5a70611f": {
+    "issued_at": "2026-11-03T20:57:23.697002+00:00",
+    "metadata": {
+      "device_id": 1024,
+      "gps_lat": 408259,
+      "gps_long_abs": 778637,
+      "sensor_score": 77,
+      "timestamp": 1780298225
+    }
+  },
+  "fa5d958cb348a2e786884ad2e2e35987b48be74dbbb00f1a44b0bf308e2839ad": {
+    "issued_at": "2026-11-03T20:57:16.722574+00:00",
+    "metadata": {
+      "device_id": 1024,
+      "gps_lat": 408259,
+      "gps_long_abs": 778637,
+      "sensor_score": 77,
+      "timestamp": 1780298225
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "seed_content": 43,
+  "seed_a1sub": 44,
+  "disjoint_from": "eval/sample_manifest.csv (seed 42, 20 files)",
+  "n_bona": 50,
+  "n_spoof": 50,
+  "n_a1sub": 10
+}

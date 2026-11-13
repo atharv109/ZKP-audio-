@@ -1,0 +1,8 @@
+global envelope xcorr: coarse t0 = -7.43s
+envelope-affine anchor: t0=-8.0571s b=1.008387 matched 99/100 resid std 1876.7 ms range -3881.0..+3848.1
+  clip   0: cap=   -3.82s q=0.02 lag=-50.0ms q2=0.000 verified=False
+  clip  20: cap=  106.32s q=0.10 lag=-41.3ms q2=0.039 verified=False
+  clip  40: cap=  210.38s q=0.16 lag=+15.1ms q2=0.013 verified=True
+  clip  60: cap=  325.59s q=0.10 lag=+36.4ms q2=0.018 verified=False
+  clip  80: cap=  437.69s q=0.11 lag=-3.0ms q2=0.027 verified=False
+content-verified: 6/100  unverifiable(schedule-cut): 94  verified->50ms(misaligned): 0

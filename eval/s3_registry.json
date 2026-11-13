@@ -1,0 +1,572 @@
+{
+  "05e1965ed274322b4146233030d80c8bdea401bdb952539da4a13a2ae4b44488": {
+    "issued_at": "2026-11-03T21:09:57.986063+00:00",
+    "metadata": {
+      "device_id": 1024,
+      "gps_lat": 408259,
+      "gps_long_abs": 778637,
+      "sensor_score": 77,
+      "timestamp": 1780298225
+    }
+  },
+  "0a96d15820c58306ab7bee3b5073a5caad7606e47c392a36910d529dcb8fd290": {
+    "issued_at": "2026-11-04T03:40:33.618274+00:00",
+    "metadata": {
+      "file_id": "LA_E_5576566"
+    }
+  },
+  "0d6bb3222129b9a4483e0684b171d4c18cc76b128ecb846915302f9ef3dc4dc3": {
+    "issued_at": "2026-11-04T03:44:36.177993+00:00",
+    "metadata": {
+      "file_id": "LA_E_8636129"
+    }
+  },
+  "12b6164d9348f7ffa19b33e153eecd0dfa08089a5d80a4594f8bc151d10e2413": {
+    "issued_at": "2026-11-04T03:41:42.918582+00:00",
+    "metadata": {
+      "file_id": "LA_E_6102028"
+    }
+  },
+  "138900a37d12dfc4f6526fd18a6483c85a213f21e1d28d0e7f536d2fbf32033d": {
+    "issued_at": "2026-11-04T05:31:25.586301+00:00",
+    "metadata": {
+      "file_id": "LA_E_1194478@0.5_start",
+      "kind": "splice re-enrollment"
+    }
+  },
+  "141db957dceeea4a624bd77f381b9afac6ba92fdd2d799f931064b4af66e1e92": {
+    "issued_at": "2026-11-04T03:38:25.291595+00:00",
+    "metadata": {
+      "file_id": "LA_E_4696956"
+    }
+  },
+  "1bfdaabfb973fcbe466369710e83905e9b3d91945ed4879871db3fe0e4080786": {
+    "issued_at": "2026-11-04T03:44:21.307509+00:00",
+    "metadata": {
+      "file_id": "LA_E_8560414"
+    }
+  },
+  "1c4e2881382fcffac8c73312f490b659242ca30b2114da00c59474ccf3c2c50d": {
+    "issued_at": "2026-11-03T21:09:52.162287+00:00",
+    "metadata": {
+      "device_id": 1024,
+      "gps_lat": 408259,
+      "gps_long_abs": 778637,
+      "sensor_score": 77,
+      "timestamp": 1780298225
+    }
+  },
+  "1df48a65b6a90fabf895a4b60a78da25552cb5bbf212b5b4121384a27a09c796": {
+    "issued_at": "2026-11-04T05:30:32.675397+00:00",
+    "metadata": {
+      "file_id": "LA_E_1194478@0.1_end",
+      "kind": "splice re-enrollment"
+    }
+  },
+  "2172692ef693fa6e6c10d57158098e68762f275da6e5b2d05d184a5583a4ed87": {
+    "issued_at": "2026-11-03T21:10:19.148144+00:00",
+    "metadata": {
+      "device_id": 1024,
+      "gps_lat": 408259,
+      "gps_long_abs": 778637,
+      "sensor_score": 77,
+      "timestamp": 1780298225
+    }
+  },
+  "2a030cd64b997010e406efb7754f00fad30412743af980d4e62387a91a5baa4b": {
+    "issued_at": "2026-11-03T22:05:56.283325+00:00",
+    "metadata": {
+      "file_id": "LA_E_1194478"
+    }
+  },
+  "2ae7c741dd72c6d5abdafdfc681c287282badd808c5d6875e173fcd6eb5b9995": {
+    "issued_at": "2026-11-04T03:43:24.186193+00:00",
+    "metadata": {
+      "file_id": "LA_E_7187204"
+    }
+  },
+  "2c52ac5399f8aedfbe15a8d404f623ee3c5e324b60bc924fa40534cd2d363e3a": {
+    "issued_at": "2026-11-04T03:37:28.283295+00:00",
+    "metadata": {
+      "file_id": "LA_E_2805188"
+    }
+  },
+  "2cee2fd1903ba8036202db6627a465fd66cdcacec69ca4a92ad8c634fd662efd": {
+    "issued_at": "2026-11-04T03:41:14.126342+00:00",
+    "metadata": {
+      "file_id": "LA_E_6030759"
+    }
+  },
+  "2de1a8af8c6b7c6a3b72cafa3b07ae2978b0ad6a6924db4377f337e61c46aefc": {
+    "issued_at": "2026-11-04T05:31:38.865405+00:00",
+    "metadata": {
+      "file_id": "LA_E_1194478@0.5_middle",
+      "kind": "splice re-enrollment"
+    }
+  },
+  "31e4ae6e475d877292bbbe0963757b717f3f07d69711f7398d8ed14f29364766": {
+    "issued_at": "2026-11-04T03:43:38.570130+00:00",
+    "metadata": {
+      "file_id": "LA_E_7658022"
+    }
+  },
+  "3a2750ebfcd492481a62b5e1948799b1c76ca1cb1cd5da2857443980ae429c5a": {
+    "issued_at": "2026-11-04T03:45:18.723720+00:00",
+    "metadata": {
+      "file_id": "LA_E_9266084"
+    }
+  },
+  "3fbe6082e2e24c26e9bacbb22d7a696a529c31983085cde3ef70e6eb29297c17": {
+    "issued_at": "2026-11-04T03:42:54.955574+00:00",
+    "metadata": {
+      "file_id": "LA_E_6936182"
+    }
+  },
+  "40d9fb3c967b376299779f14ef3684ee85781952d3e2bb6ac95de7ad6e98bef3": {
+    "issued_at": "2026-11-04T03:41:56.970735+00:00",
+    "metadata": {
+      "file_id": "LA_E_6421290"
+    }
+  },
+  "42640774f88b880966f0249e59d5c92ec8175414b9183c172961871b5e1878eb": {
+    "issued_at": "2026-11-03T22:06:23.927334+00:00",
+    "metadata": {
+      "file_id": "LA_E_1957903"
+    }
+  },
+  "4f5bd6cc1b97c532f937df52a9248de60fc37b932a26e49ead7f260e422bfcd7": {
+    "issued_at": "2026-11-04T03:44:06.922395+00:00",
+    "metadata": {
+      "file_id": "LA_E_7933041"
+    }
+  },
+  "505bee4029b89ecd4336f027515f955efc775763c9573fe238c6e59191112de2": {
+    "issued_at": "2026-11-03T21:10:56.636224+00:00",
+    "metadata": {
+      "device_id": 1024,
+      "gps_lat": 408259,
+      "gps_long_abs": 778637,
+      "sensor_score": 77,
+      "timestamp": 1780298225
+    }
+  },
+  "5533c7dc81058c793d212b3863959313b5b4347debc525569bed35ec8c0333ff": {
+    "issued_at": "2026-11-04T03:45:33.491651+00:00",
+    "metadata": {
+      "file_id": "LA_E_9397037"
+    }
+  },
+  "5e73db12116319ab98846395e50d89074955eb20e84efce2bd63fa33880d1fe6": {
+    "issued_at": "2026-11-03T21:09:20.327662+00:00",
+    "metadata": {
+      "device_id": 1024,
+      "gps_lat": 408259,
+      "gps_long_abs": 778637,
+      "sensor_score": 77,
+      "timestamp": 1780298225
+    }
+  },
+  "5e7b0c442a5c27544083c22b3657b2bdbbe91e258cdcd69096736e764f097b16": {
+    "issued_at": "2026-11-03T21:11:02.943601+00:00",
+    "metadata": {
+      "device_id": 1024,
+      "gps_lat": 408259,
+      "gps_long_abs": 778637,
+      "sensor_score": 77,
+      "timestamp": 1780298225
+    }
+  },
+  "5ffcc0c5d9a7cccfcacb09eca58867b0792da68cf89dd36d3d26537ffee1b8e6": {
+    "issued_at": "2026-11-04T03:37:43.090689+00:00",
+    "metadata": {
+      "file_id": "LA_E_2864879"
+    }
+  },
+  "60083f6d7d68d600d12eb6b6e6f41f1af76f048e43b0b8aad8ec3246ee255c12": {
+    "issued_at": "2026-11-03T21:10:13.845982+00:00",
+    "metadata": {
+      "device_id": 1024,
+      "gps_lat": 408259,
+      "gps_long_abs": 778637,
+      "sensor_score": 77,
+      "timestamp": 1780298225
+    }
+  },
+  "652a83d1e6dc69589f169178e62547dfbcc46fcf9987bbd49827e0ed1540a67f": {
+    "issued_at": "2026-11-03T22:06:15.469605+00:00",
+    "metadata": {
+      "file_id": "LA_E_1636866"
+    }
+  },
+  "666c196956b61e91509773e5535c8675533e5669624e1afe19040ee3e156b913": {
+    "issued_at": "2026-11-04T05:30:19.822391+00:00",
+    "metadata": {
+      "file_id": "LA_E_1194478@0.1_middle",
+      "kind": "splice re-enrollment"
+    }
+  },
+  "680c468261d9333d15419ea4ca8a80a9af13b4ee1df3413835d73e5aad7ce7c1": {
+    "issued_at": "2026-11-04T03:37:57.133802+00:00",
+    "metadata": {
+      "file_id": "LA_E_3717751"
+    }
+  },
+  "69ea7ae47495b9f4ccf7f1419114565cc1c30548a6ea241b00fef22fcdcb0036": {
+    "issued_at": "2026-11-04T05:31:51.213486+00:00",
+    "metadata": {
+      "file_id": "LA_E_1194478@0.5_end",
+      "kind": "splice re-enrollment"
+    }
+  },
+  "6bf78f81109f0befeafc30f2afdbbf0d0fb501296bf78f858744928dea28aee3": {
+    "issued_at": "2026-11-04T03:42:25.390823+00:00",
+    "metadata": {
+      "file_id": "LA_E_6712126"
+    }
+  },
+  "6c4ccb07d33bc0a127ab4ef9e90a3726bd25fa46a050ecdea3e0dc3c47b1464e": {
+    "issued_at": "2026-11-04T03:36:32.296866+00:00",
+    "metadata": {
+      "file_id": "LA_E_2347990"
+    }
+  },
+  "735cd173cf575e17d3c97e3a464d82b7178483c7faabf35ba51c7f300878b2d9": {
+    "issued_at": "2026-11-04T03:43:52.745809+00:00",
+    "metadata": {
+      "file_id": "LA_E_7903545"
+    }
+  },
+  "73c912e8707ae4e2375ea5770781c4b7c8e1c8e4827a805ddc0d1e6c16cbc862": {
+    "issued_at": "2026-11-04T03:36:19.139801+00:00",
+    "metadata": {
+      "file_id": "LA_E_2298835"
+    }
+  },
+  "77aaa5b333101fa37b48e9e4d3dd13ecd249dc72f94fd4a4b112412890c4f458": {
+    "issued_at": "2026-11-03T21:10:45.710519+00:00",
+    "metadata": {
+      "device_id": 1024,
+      "gps_lat": 408259,
+      "gps_long_abs": 778637,
+      "sensor_score": 77,
+      "timestamp": 1780298225
+    }
+  },
+  "7a9f38533444b36176fe9dbe8b3ba760db99428b87b57406b3eccd5a9306747c": {
+    "issued_at": "2026-11-03T21:11:08.268890+00:00",
+    "metadata": {
+      "device_id": 1024,
+      "gps_lat": 408259,
+      "gps_long_abs": 778637,
+      "sensor_score": 77,
+      "timestamp": 1780298225
+    }
+  },
+  "7da292c7390057f0495b508a06142bf31ab191c4cb56466cfac886c5c7ab8c76": {
+    "issued_at": "2026-11-04T03:42:11.138151+00:00",
+    "metadata": {
+      "file_id": "LA_E_6693511"
+    }
+  },
+  "7dad0706013bbaed6209bd9ef3455f93c190575a22be0b1eac2ab8cbe9d6ee88": {
+    "issued_at": "2026-11-03T21:09:28.459791+00:00",
+    "metadata": {
+      "device_id": 1024,
+      "gps_lat": 408259,
+      "gps_long_abs": 778637,
+      "sensor_score": 77,
+      "timestamp": 1780298225
+    }
+  },
+  "7f103e10d755da595535df3b27cd79a6ae70d310abde384a25c803b142db01f4": {
+    "issued_at": "2026-11-03T21:10:03.293796+00:00",
+    "metadata": {
+      "device_id": 1024,
+      "gps_lat": 408259,
+      "gps_long_abs": 778637,
+      "sensor_score": 77,
+      "timestamp": 1780298225
+    }
+  },
+  "812f6689b6602c61bc2747a7f2907bbf7a577a1c3b211aa632873e48c8457d85": {
+    "issued_at": "2026-11-03T21:10:40.452218+00:00",
+    "metadata": {
+      "device_id": 1024,
+      "gps_lat": 408259,
+      "gps_long_abs": 778637,
+      "sensor_score": 77,
+      "timestamp": 1780298225
+    }
+  },
+  "85eb647ede298f61be76ac1593424ba0aceb496d99dccdfb34f03ac9d9acc935": {
+    "issued_at": "2026-11-04T03:40:20.693286+00:00",
+    "metadata": {
+      "file_id": "LA_E_5490678"
+    }
+  },
+  "86dab04d0a2a171883d5c62a296a3603b72bb491578b4f81960702227719c119": {
+    "issued_at": "2026-11-03T21:10:29.654222+00:00",
+    "metadata": {
+      "device_id": 1024,
+      "gps_lat": 408259,
+      "gps_long_abs": 778637,
+      "sensor_score": 77,
+      "timestamp": 1780298225
+    }
+  },
+  "8de4944f3982401f0c272c361baeb72742a5c289ac122b62b788256fc48f3f9e": {
+    "issued_at": "2026-11-04T03:39:50.886687+00:00",
+    "metadata": {
+      "file_id": "LA_E_5292305"
+    }
+  },
+  "8ea868e897072539cc0b66bf1a22fb21147304e7282ef4acb06e704d000d1dbc": {
+    "issued_at": "2026-11-03T22:06:09.108689+00:00",
+    "metadata": {
+      "file_id": "LA_E_1595601"
+    }
+  },
+  "9561d48729d5bcef804468db1a7a212b957f01c3334476a27fe6b810a5442902": {
+    "issued_at": "2026-11-04T03:36:05.297614+00:00",
+    "metadata": {
+      "file_id": "LA_E_2089289"
+    }
+  },
+  "a1e99a8ae65b934df4fdccc8cc4bd786b098d466d9e0d9973ec1044facc95981": {
+    "issued_at": "2026-11-04T03:35:51.292138+00:00",
+    "metadata": {
+      "file_id": "LA_E_1965693"
+    }
+  },
+  "a321bb9d3a6455540bae140ee6e59769762430dc9420a053eb49192b0a0e3c65": {
+    "issued_at": "2026-11-04T05:30:58.822850+00:00",
+    "metadata": {
+      "file_id": "LA_E_1194478@0.25_middle",
+      "kind": "splice re-enrollment"
+    }
+  },
+  "a64ff6ae3bcac48bbc33f58f1b25e5a9258c3ec98dd163e8912640677813ca9d": {
+    "issued_at": "2026-11-03T21:10:24.349933+00:00",
+    "metadata": {
+      "device_id": 1024,
+      "gps_lat": 408259,
+      "gps_long_abs": 778637,
+      "sensor_score": 77,
+      "timestamp": 1780298225
+    }
+  },
+  "a6714e0d4f231aceed94c0a3fba928fcb70f6a9af01bd6d5ed5d1d61c41811da": {
+    "issued_at": "2026-11-04T03:38:39.845648+00:00",
+    "metadata": {
+      "file_id": "LA_E_4723563"
+    }
+  },
+  "a69f655d2a1c5fefb166ca51ea536a6181bb2b00c398f69820bdecdee461e5ed": {
+    "issued_at": "2026-11-04T05:32:45.847223+00:00",
+    "metadata": {
+      "file_id": "LA_E_1377603@0.5_middle",
+      "kind": "splice re-enrollment"
+    }
+  },
+  "a90919b350029de2a07d336711740a7d0da4803ecb5a8ff364d47b54b963448d": {
+    "issued_at": "2026-11-04T03:39:36.735000+00:00",
+    "metadata": {
+      "file_id": "LA_E_4926497"
+    }
+  },
+  "ad30e431f18b420edb9c1fa065e98f884618fa18b2fbf07b40635028f36ba8d5": {
+    "issued_at": "2026-11-04T03:39:08.305473+00:00",
+    "metadata": {
+      "file_id": "LA_E_4763073"
+    }
+  },
+  "b3117529ae6e7f4bbe29729cc4c94ce2137090d7da43e73485f552db7cf8e36e": {
+    "issued_at": "2026-11-04T03:40:06.552839+00:00",
+    "metadata": {
+      "file_id": "LA_E_5302082"
+    }
+  },
+  "b38a29baee1e88b2ec8396351856d7bb625789227f20c1bc54efa69921afcb53": {
+    "issued_at": "2026-11-04T03:40:48.130964+00:00",
+    "metadata": {
+      "file_id": "LA_E_5927801"
+    }
+  },
+  "b655bde1593d9e6e9922da8ca0b715b61e1c06e1243ba1d3439854a47c478c02": {
+    "issued_at": "2026-11-04T05:30:46.080527+00:00",
+    "metadata": {
+      "file_id": "LA_E_1194478@0.25_start",
+      "kind": "splice re-enrollment"
+    }
+  },
+  "b6fa95b1fc1d55ff6cb268e50c089ec9e3731b538fc3d2300c84b52a13842eb4": {
+    "issued_at": "2026-11-04T03:39:22.595636+00:00",
+    "metadata": {
+      "file_id": "LA_E_4861696"
+    }
+  },
+  "b87d99a60c38514b865a45f6e37b5f9b1c033ed430f8cc4426c15370adb2fdd3": {
+    "issued_at": "2026-11-03T21:10:07.955694+00:00",
+    "metadata": {
+      "device_id": 1024,
+      "gps_lat": 408259,
+      "gps_long_abs": 778637,
+      "sensor_score": 77,
+      "timestamp": 1780298225
+    }
+  },
+  "bceb68cb3d29c1f891650ab67af1c8ecfcbda8bda57339087ee535b821f1385e": {
+    "issued_at": "2026-11-04T03:42:39.548026+00:00",
+    "metadata": {
+      "file_id": "LA_E_6918683"
+    }
+  },
+  "befa6634a0a4f821e4bf4bb909eeb85f4de1957cba120f7a75ffd6baf3e00c82": {
+    "issued_at": "2026-11-03T21:10:34.727989+00:00",
+    "metadata": {
+      "device_id": 1024,
+      "gps_lat": 408259,
+      "gps_long_abs": 778637,
+      "sensor_score": 77,
+      "timestamp": 1780298225
+    }
+  },
+  "c055f92b7433be7c466da4fa4dd5e4047f4c25885bb3770f26d68c93bfd76105": {
+    "issued_at": "2026-11-04T03:36:45.594083+00:00",
+    "metadata": {
+      "file_id": "LA_E_2478039"
+    }
+  },
+  "c76c9aea6483e5dfd41eb9105069c2d9bfdbdf81e16cd813d8e18e85e219682a": {
+    "issued_at": "2026-11-04T03:41:28.198123+00:00",
+    "metadata": {
+      "file_id": "LA_E_6089598"
+    }
+  },
+  "c9692b2127f6271221a53c7d06234d418d47bf801db16b7b00fe329c6c2ca211": {
+    "issued_at": "2026-11-03T21:09:46.441503+00:00",
+    "metadata": {
+      "device_id": 1024,
+      "gps_lat": 408259,
+      "gps_long_abs": 778637,
+      "sensor_score": 77,
+      "timestamp": 1780298225
+    }
+  },
+  "d470255dafa4da941a0937c59ff42d487285d3db4a95bff820787736a56fa8c0": {
+    "issued_at": "2026-11-04T03:44:50.449062+00:00",
+    "metadata": {
+      "file_id": "LA_E_8744180"
+    }
+  },
+  "d6053069c3459a975d5f928446d28efaccac6680ba1766a7a6d482d6abc48a5e": {
+    "issued_at": "2026-11-04T03:43:09.759853+00:00",
+    "metadata": {
+      "file_id": "LA_E_7037209"
+    }
+  },
+  "d66babb100846436b9f2e7a0bb7e93abd498224713154bc9ecdd5cd72a2f0154": {
+    "issued_at": "2026-11-04T03:38:53.927380+00:00",
+    "metadata": {
+      "file_id": "LA_E_4749618"
+    }
+  },
+  "d9e91fbc41fc756a13961c754004668816c4dfc8ad18552762e340351537a7dd": {
+    "issued_at": "2026-11-03T22:06:02.626403+00:00",
+    "metadata": {
+      "file_id": "LA_E_1377603"
+    }
+  },
+  "db94d673b91b935066cb144040fe61a85e5bff1de13f6faf8ab06ee2310f0564": {
+    "issued_at": "2026-11-04T03:37:14.291077+00:00",
+    "metadata": {
+      "file_id": "LA_E_2652508"
+    }
+  },
+  "de2c3df5490c25bc344b8c8cd58ceba08784ea6e8e832de1e0a377d3922aec2e": {
+    "issued_at": "2026-11-04T03:45:48.805083+00:00",
+    "metadata": {
+      "file_id": "LA_E_9566748"
+    }
+  },
+  "de63c609aa5011eff48f0107979db432df5df4816144e39c0a565bf12f08dd88": {
+    "issued_at": "2026-11-04T05:31:12.225613+00:00",
+    "metadata": {
+      "file_id": "LA_E_1194478@0.25_end",
+      "kind": "splice re-enrollment"
+    }
+  },
+  "e19c8f905bbaa4686ea2ac82c6b093dd3e285b9518f2c7915893745e7a08da7f": {
+    "issued_at": "2026-11-04T03:36:59.607130+00:00",
+    "metadata": {
+      "file_id": "LA_E_2574797"
+    }
+  },
+  "e65dbf7335369a96bbee91c3c6d65b8b62ab5675f9502feda0a258f0e284d554": {
+    "issued_at": "2026-11-04T03:45:04.537058+00:00",
+    "metadata": {
+      "file_id": "LA_E_8962616"
+    }
+  },
+  "e797730e827e00ca75b6a83e15a030047d61dd4c6d780f855935481997727131": {
+    "issued_at": "2026-11-04T05:30:06.360189+00:00",
+    "metadata": {
+      "file_id": "LA_E_1194478@0.1_start",
+      "kind": "splice re-enrollment"
+    }
+  },
+  "eba2b5f1f1acfe23efb03309ecee828f848f18e6f8bd11cfe38963273a5fa9f4": {
+    "issued_at": "2026-11-04T03:38:11.270023+00:00",
+    "metadata": {
+      "file_id": "LA_E_3850599"
+    }
+  },
+  "ed5c76ae7a582e8dfd5021cd4cb1b7d2ad9d83adf1337e913628d54a5a70611f": {
+    "issued_at": "2026-11-03T21:09:41.240709+00:00",
+    "metadata": {
+      "device_id": 1024,
+      "gps_lat": 408259,
+      "gps_long_abs": 778637,
+      "sensor_score": 77,
+      "timestamp": 1780298225
+    }
+  },
+  "eecbdbe24e9d5db715b9ca6fbe3b8d61ba815386e85cfdca662d2e02a71bb638": {
+    "issued_at": "2026-11-04T03:46:16.631235+00:00",
+    "metadata": {
+      "file_id": "LA_E_9911328"
+    }
+  },
+  "f37849a434afb0bc9aff7244b321fe6c68e9459ddb11473627b7094b801cd8b3": {
+    "issued_at": "2026-11-04T03:46:02.402200+00:00",
+    "metadata": {
+      "file_id": "LA_E_9578484"
+    }
+  },
+  "f61d7e37eeeb10035c951ce6cb65140a7fc1d115a0046b0c869c492bb265c8d9": {
+    "issued_at": "2026-11-04T03:41:00.476634+00:00",
+    "metadata": {
+      "file_id": "LA_E_5954653"
+    }
+  },
+  "fa5d958cb348a2e786884ad2e2e35987b48be74dbbb00f1a44b0bf308e2839ad": {
+    "issued_at": "2026-11-03T21:09:34.804112+00:00",
+    "metadata": {
+      "device_id": 1024,
+      "gps_lat": 408259,
+      "gps_long_abs": 778637,
+      "sensor_score": 77,
+      "timestamp": 1780298225
+    }
+  },
+  "fe40c8e04f49da1d7dd2b2daee23308e47b8856419fd3c806584bc6f28216529": {
+    "issued_at": "2026-11-03T21:10:51.448910+00:00",
+    "metadata": {
+      "device_id": 1024,
+      "gps_lat": 408259,
+      "gps_long_abs": 778637,
+      "sensor_score": 77,
+      "timestamp": 1780298225
+    }
+  }
+}

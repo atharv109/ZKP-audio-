@@ -1,0 +1,321 @@
+{
+  "enroll": {
+    "LA_E_1250691": "enrolled",
+    "LA_E_2038545": "enrolled",
+    "LA_E_2075207": "refused",
+    "LA_E_2142603": "enrolled",
+    "LA_E_2424848": "enrolled",
+    "LA_E_2634860": "refused",
+    "LA_E_3085383": "refused",
+    "LA_E_3268226": "enrolled",
+    "LA_E_3471461": "enrolled",
+    "LA_E_3686993": "refused",
+    "LA_E_3745990": "enrolled",
+    "LA_E_4522825": "refused",
+    "LA_E_4799053": "refused",
+    "LA_E_5831669": "refused",
+    "LA_E_6035398": "refused",
+    "LA_E_7328013": "enrolled",
+    "LA_E_7486394": "refused",
+    "LA_E_8313081": "enrolled",
+    "LA_E_8374049": "refused",
+    "LA_E_8976718": "refused"
+  },
+  "enroll43": {
+    "LA_E_1194478": "enrolled",
+    "LA_E_1377603": "enrolled",
+    "LA_E_1595601": "enrolled",
+    "LA_E_1636866": "enrolled",
+    "LA_E_1957903": "enrolled",
+    "LA_E_1965693": "enrolled",
+    "LA_E_2089289": "enrolled",
+    "LA_E_2298835": "enrolled",
+    "LA_E_2347990": "enrolled",
+    "LA_E_2478039": "enrolled",
+    "LA_E_2574797": "enrolled",
+    "LA_E_2652508": "enrolled",
+    "LA_E_2805188": "refused",
+    "LA_E_2864879": "enrolled",
+    "LA_E_3717751": "enrolled",
+    "LA_E_3850599": "enrolled",
+    "LA_E_4696956": "enrolled",
+    "LA_E_4723563": "enrolled",
+    "LA_E_4749618": "enrolled",
+    "LA_E_4763073": "enrolled",
+    "LA_E_4861696": "enrolled",
+    "LA_E_4926497": "enrolled",
+    "LA_E_5292305": "enrolled",
+    "LA_E_5302082": "enrolled",
+    "LA_E_5490678": "enrolled",
+    "LA_E_5576566": "enrolled",
+    "LA_E_5927801": "enrolled",
+    "LA_E_5954653": "enrolled",
+    "LA_E_6030759": "enrolled",
+    "LA_E_6089598": "enrolled",
+    "LA_E_6102028": "enrolled",
+    "LA_E_6421290": "enrolled",
+    "LA_E_6693511": "enrolled",
+    "LA_E_6712126": "enrolled",
+    "LA_E_6918683": "enrolled",
+    "LA_E_6936182": "enrolled",
+    "LA_E_7037209": "enrolled",
+    "LA_E_7187204": "enrolled",
+    "LA_E_7658022": "enrolled",
+    "LA_E_7903545": "enrolled",
+    "LA_E_7933041": "enrolled",
+    "LA_E_8560414": "enrolled",
+    "LA_E_8636129": "enrolled",
+    "LA_E_8744180": "enrolled",
+    "LA_E_8962616": "enrolled",
+    "LA_E_9266084": "enrolled",
+    "LA_E_9397037": "enrolled",
+    "LA_E_9566748": "enrolled",
+    "LA_E_9578484": "enrolled",
+    "LA_E_9911328": "enrolled"
+  },
+  "honest_proof": {
+    "LA_E_1250691": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest_proofs\\LA_E_1250691",
+      "ms": 783,
+      "stages": null
+    },
+    "LA_E_2038545": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest_proofs\\LA_E_2038545",
+      "ms": 786,
+      "stages": null
+    },
+    "LA_E_2142603": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest_proofs\\LA_E_2142603",
+      "ms": 1374,
+      "stages": null
+    },
+    "LA_E_2424848": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest_proofs\\LA_E_2424848",
+      "ms": 765,
+      "stages": null
+    },
+    "LA_E_3268226": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest_proofs\\LA_E_3268226",
+      "ms": 754,
+      "stages": null
+    },
+    "LA_E_3471461": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest_proofs\\LA_E_3471461",
+      "ms": 733,
+      "stages": null
+    },
+    "LA_E_3745990": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest_proofs\\LA_E_3745990",
+      "ms": 718,
+      "stages": null
+    },
+    "LA_E_7328013": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest_proofs\\LA_E_7328013",
+      "ms": 753,
+      "stages": null
+    },
+    "LA_E_8313081": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest_proofs\\LA_E_8313081",
+      "ms": 713,
+      "stages": null
+    }
+  },
+  "honest_proof43": {
+    "LA_E_1194478": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest43\\LA_E_1194478",
+      "ms": 706
+    },
+    "LA_E_1377603": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest43\\LA_E_1377603",
+      "ms": 673
+    },
+    "LA_E_1595601": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest43\\LA_E_1595601",
+      "ms": 721
+    },
+    "LA_E_1636866": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest43\\LA_E_1636866",
+      "ms": 684
+    },
+    "LA_E_1957903": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest43\\LA_E_1957903",
+      "ms": 714
+    },
+    "LA_E_1965693": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest43\\LA_E_1965693",
+      "ms": 694
+    },
+    "LA_E_2089289": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest43\\LA_E_2089289",
+      "ms": 668
+    },
+    "LA_E_2298835": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest43\\LA_E_2298835",
+      "ms": 646
+    },
+    "LA_E_2347990": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest43\\LA_E_2347990",
+      "ms": 682
+    },
+    "LA_E_2478039": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest43\\LA_E_2478039",
+      "ms": 695
+    },
+    "LA_E_2574797": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest43\\LA_E_2574797",
+      "ms": 665
+    },
+    "LA_E_2652508": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest43\\LA_E_2652508",
+      "ms": 666
+    },
+    "LA_E_2864879": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest43\\LA_E_2864879",
+      "ms": 657
+    },
+    "LA_E_3717751": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest43\\LA_E_3717751",
+      "ms": 678
+    },
+    "LA_E_3850599": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest43\\LA_E_3850599",
+      "ms": 671
+    },
+    "LA_E_4696956": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest43\\LA_E_4696956",
+      "ms": 665
+    },
+    "LA_E_4723563": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest43\\LA_E_4723563",
+      "ms": 686
+    },
+    "LA_E_4749618": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest43\\LA_E_4749618",
+      "ms": 679
+    },
+    "LA_E_4763073": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest43\\LA_E_4763073",
+      "ms": 693
+    },
+    "LA_E_4861696": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest43\\LA_E_4861696",
+      "ms": 698
+    },
+    "LA_E_4926497": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest43\\LA_E_4926497",
+      "ms": 682
+    },
+    "LA_E_5292305": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest43\\LA_E_5292305",
+      "ms": 709
+    },
+    "LA_E_5302082": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest43\\LA_E_5302082",
+      "ms": 678
+    },
+    "LA_E_5490678": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest43\\LA_E_5490678",
+      "ms": 690
+    },
+    "LA_E_5576566": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest43\\LA_E_5576566",
+      "ms": 687
+    },
+    "LA_E_5927801": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest43\\LA_E_5927801",
+      "ms": 706
+    },
+    "LA_E_5954653": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest43\\LA_E_5954653",
+      "ms": 716
+    },
+    "LA_E_6030759": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest43\\LA_E_6030759",
+      "ms": 675
+    },
+    "LA_E_6089598": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest43\\LA_E_6089598",
+      "ms": 708
+    },
+    "LA_E_6102028": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest43\\LA_E_6102028",
+      "ms": 706
+    },
+    "LA_E_6421290": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest43\\LA_E_6421290",
+      "ms": 736
+    },
+    "LA_E_6693511": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest43\\LA_E_6693511",
+      "ms": 709
+    },
+    "LA_E_6712126": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest43\\LA_E_6712126",
+      "ms": 701
+    },
+    "LA_E_6918683": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest43\\LA_E_6918683",
+      "ms": 790
+    },
+    "LA_E_6936182": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest43\\LA_E_6936182",
+      "ms": 674
+    },
+    "LA_E_7037209": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest43\\LA_E_7037209",
+      "ms": 721
+    },
+    "LA_E_7187204": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest43\\LA_E_7187204",
+      "ms": 663
+    },
+    "LA_E_7658022": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest43\\LA_E_7658022",
+      "ms": 666
+    },
+    "LA_E_7903545": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest43\\LA_E_7903545",
+      "ms": 704
+    },
+    "LA_E_7933041": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest43\\LA_E_7933041",
+      "ms": 632
+    },
+    "LA_E_8560414": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest43\\LA_E_8560414",
+      "ms": 713
+    },
+    "LA_E_8636129": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest43\\LA_E_8636129",
+      "ms": 656
+    },
+    "LA_E_8744180": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest43\\LA_E_8744180",
+      "ms": 694
+    },
+    "LA_E_8962616": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest43\\LA_E_8962616",
+      "ms": 687
+    },
+    "LA_E_9266084": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest43\\LA_E_9266084",
+      "ms": 706
+    },
+    "LA_E_9397037": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest43\\LA_E_9397037",
+      "ms": 688
+    },
+    "LA_E_9566748": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest43\\LA_E_9566748",
+      "ms": 678
+    },
+    "LA_E_9578484": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest43\\LA_E_9578484",
+      "ms": 686
+    },
+    "LA_E_9911328": {
+      "dir": "outputs\\v4\\eval_v4_att\\honest43\\LA_E_9911328",
+      "ms": 694
+    }
+  }
+}

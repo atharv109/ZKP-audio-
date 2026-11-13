@@ -1,0 +1,204 @@
+file_id,label,attack_id,system,command,exit_code,verdict,reason,runtime_ms,peak_node_mb,peak_python_mb
+LA_E_1250691,bonafide->substituted,A1,S1,node scripts/verify_fully.js verify_fully.js LA_E_9394669.flac proof.json public.json record.json,1,REJECT,FV REJECT [substituted file + its own fresh proof],680,0,0
+LA_E_1250691,bonafide->substituted,A1,S2,node scripts/verify_fully.js verify_fully.js LA_E_9394669.flac proof.json public.json record.json  [Part B outcome of the same S1 run],1,REJECT,Part B: FV REJECT [substituted file + its own fresh proof],680,0,0
+LA_E_1250691,bonafide,A1,S3,python eval/s3_registry.py lookup 2172692ef693fa6e...,,ACCEPT,ACCEPT enrolled (issued_at=2026-11-03T21:10:19.148144+00:00),,,
+LA_E_1250691,bonafide,A1,S4,read final_outputs/.../merged_scores.csv (frozen AASIST-L score),,spoof,"score=-2.915393: spoof@1.7635419737, spoof@1.81681 (score of SUBSTITUTE file Y)",,,
+LA_E_2038545,bonafide->substituted,A1,S1,node scripts/verify_fully.js verify_fully.js LA_E_9394669.flac proof.json public.json record.json,1,REJECT,FV REJECT [substituted file + its own fresh proof],687,0,0
+LA_E_2038545,bonafide->substituted,A1,S2,node scripts/verify_fully.js verify_fully.js LA_E_9394669.flac proof.json public.json record.json  [Part B outcome of the same S1 run],1,REJECT,Part B: FV REJECT [substituted file + its own fresh proof],687,0,0
+LA_E_2038545,bonafide,A1,S3,python eval/s3_registry.py lookup 2172692ef693fa6e...,,ACCEPT,ACCEPT enrolled (issued_at=2026-11-03T21:10:19.148144+00:00),,,
+LA_E_2038545,bonafide,A1,S4,read final_outputs/.../merged_scores.csv (frozen AASIST-L score),,spoof,"score=-2.915393: spoof@1.7635419737, spoof@1.81681 (score of SUBSTITUTE file Y)",,,
+LA_E_2142603,bonafide->substituted,A1,S1,node scripts/verify_fully.js verify_fully.js LA_E_9394669.flac proof.json public.json record.json,1,REJECT,FV REJECT [substituted file + its own fresh proof],685,0,0
+LA_E_2142603,bonafide->substituted,A1,S2,node scripts/verify_fully.js verify_fully.js LA_E_9394669.flac proof.json public.json record.json  [Part B outcome of the same S1 run],1,REJECT,Part B: FV REJECT [substituted file + its own fresh proof],685,0,0
+LA_E_2142603,bonafide,A1,S3,python eval/s3_registry.py lookup 2172692ef693fa6e...,,ACCEPT,ACCEPT enrolled (issued_at=2026-11-03T21:10:19.148144+00:00),,,
+LA_E_2142603,bonafide,A1,S4,read final_outputs/.../merged_scores.csv (frozen AASIST-L score),,spoof,"score=-2.915393: spoof@1.7635419737, spoof@1.81681 (score of SUBSTITUTE file Y)",,,
+LA_E_2424848,bonafide->substituted,A1,S1,node scripts/verify_fully.js verify_fully.js LA_E_9394669.flac proof.json public.json record.json,1,REJECT,FV REJECT [substituted file + its own fresh proof],685,0,0
+LA_E_2424848,bonafide->substituted,A1,S2,node scripts/verify_fully.js verify_fully.js LA_E_9394669.flac proof.json public.json record.json  [Part B outcome of the same S1 run],1,REJECT,Part B: FV REJECT [substituted file + its own fresh proof],685,0,0
+LA_E_2424848,bonafide,A1,S3,python eval/s3_registry.py lookup 2172692ef693fa6e...,,ACCEPT,ACCEPT enrolled (issued_at=2026-11-03T21:10:19.148144+00:00),,,
+LA_E_2424848,bonafide,A1,S4,read final_outputs/.../merged_scores.csv (frozen AASIST-L score),,spoof,"score=-2.915393: spoof@1.7635419737, spoof@1.81681 (score of SUBSTITUTE file Y)",,,
+LA_E_3268226,bonafide->substituted,A1,S1,node scripts/verify_fully.js verify_fully.js LA_E_9394669.flac proof.json public.json record.json,1,REJECT,FV REJECT [substituted file + its own fresh proof],703,0,0
+LA_E_3268226,bonafide->substituted,A1,S2,node scripts/verify_fully.js verify_fully.js LA_E_9394669.flac proof.json public.json record.json  [Part B outcome of the same S1 run],1,REJECT,Part B: FV REJECT [substituted file + its own fresh proof],703,0,0
+LA_E_3268226,bonafide,A1,S3,python eval/s3_registry.py lookup 2172692ef693fa6e...,,ACCEPT,ACCEPT enrolled (issued_at=2026-11-03T21:10:19.148144+00:00),,,
+LA_E_3268226,bonafide,A1,S4,read final_outputs/.../merged_scores.csv (frozen AASIST-L score),,spoof,"score=-2.915393: spoof@1.7635419737, spoof@1.81681 (score of SUBSTITUTE file Y)",,,
+LA_E_3471461,bonafide->substituted,A1,S1,node scripts/verify_fully.js verify_fully.js LA_E_9394669.flac proof.json public.json record.json,1,REJECT,FV REJECT [substituted file + its own fresh proof],716,0,0
+LA_E_3471461,bonafide->substituted,A1,S2,node scripts/verify_fully.js verify_fully.js LA_E_9394669.flac proof.json public.json record.json  [Part B outcome of the same S1 run],1,REJECT,Part B: FV REJECT [substituted file + its own fresh proof],716,0,0
+LA_E_3471461,bonafide,A1,S3,python eval/s3_registry.py lookup 2172692ef693fa6e...,,ACCEPT,ACCEPT enrolled (issued_at=2026-11-03T21:10:19.148144+00:00),,,
+LA_E_3471461,bonafide,A1,S4,read final_outputs/.../merged_scores.csv (frozen AASIST-L score),,spoof,"score=-2.915393: spoof@1.7635419737, spoof@1.81681 (score of SUBSTITUTE file Y)",,,
+LA_E_3745990,bonafide->substituted,A1,S1,node scripts/verify_fully.js verify_fully.js LA_E_9394669.flac proof.json public.json record.json,1,REJECT,FV REJECT [substituted file + its own fresh proof],708,0,0
+LA_E_3745990,bonafide->substituted,A1,S2,node scripts/verify_fully.js verify_fully.js LA_E_9394669.flac proof.json public.json record.json  [Part B outcome of the same S1 run],1,REJECT,Part B: FV REJECT [substituted file + its own fresh proof],708,0,0
+LA_E_3745990,bonafide,A1,S3,python eval/s3_registry.py lookup 2172692ef693fa6e...,,ACCEPT,ACCEPT enrolled (issued_at=2026-11-03T21:10:19.148144+00:00),,,
+LA_E_3745990,bonafide,A1,S4,read final_outputs/.../merged_scores.csv (frozen AASIST-L score),,spoof,"score=-2.915393: spoof@1.7635419737, spoof@1.81681 (score of SUBSTITUTE file Y)",,,
+LA_E_7328013,bonafide->substituted,A1,S1,node scripts/verify_fully.js verify_fully.js LA_E_9394669.flac proof.json public.json record.json,1,REJECT,FV REJECT [substituted file + its own fresh proof],679,0,0
+LA_E_7328013,bonafide->substituted,A1,S2,node scripts/verify_fully.js verify_fully.js LA_E_9394669.flac proof.json public.json record.json  [Part B outcome of the same S1 run],1,REJECT,Part B: FV REJECT [substituted file + its own fresh proof],679,0,0
+LA_E_7328013,bonafide,A1,S3,python eval/s3_registry.py lookup 2172692ef693fa6e...,,ACCEPT,ACCEPT enrolled (issued_at=2026-11-03T21:10:19.148144+00:00),,,
+LA_E_7328013,bonafide,A1,S4,read final_outputs/.../merged_scores.csv (frozen AASIST-L score),,spoof,"score=-2.915393: spoof@1.7635419737, spoof@1.81681 (score of SUBSTITUTE file Y)",,,
+LA_E_8313081,bonafide->substituted,A1,S1,node scripts/verify_fully.js verify_fully.js LA_E_9394669.flac proof.json public.json record.json,1,REJECT,FV REJECT [substituted file + its own fresh proof],698,0,0
+LA_E_8313081,bonafide->substituted,A1,S2,node scripts/verify_fully.js verify_fully.js LA_E_9394669.flac proof.json public.json record.json  [Part B outcome of the same S1 run],1,REJECT,Part B: FV REJECT [substituted file + its own fresh proof],698,0,0
+LA_E_8313081,bonafide,A1,S3,python eval/s3_registry.py lookup 2172692ef693fa6e...,,ACCEPT,ACCEPT enrolled (issued_at=2026-11-03T21:10:19.148144+00:00),,,
+LA_E_8313081,bonafide,A1,S4,read final_outputs/.../merged_scores.csv (frozen AASIST-L score),,spoof,"score=-2.915393: spoof@1.7635419737, spoof@1.81681 (score of SUBSTITUTE file Y)",,,
+LA_E_8374049,bonafide->substituted,A1,S1,node scripts/verify_fully.js verify_fully.js LA_E_9394669.flac proof.json public.json record.json,1,REJECT,FV REJECT [substituted file + its own fresh proof],678,0,0
+LA_E_8374049,bonafide->substituted,A1,S2,node scripts/verify_fully.js verify_fully.js LA_E_9394669.flac proof.json public.json record.json  [Part B outcome of the same S1 run],1,REJECT,Part B: FV REJECT [substituted file + its own fresh proof],678,0,0
+LA_E_8374049,bonafide,A1,S3,python eval/s3_registry.py lookup 2172692ef693fa6e...,,ACCEPT,ACCEPT enrolled (issued_at=2026-11-03T21:10:19.148144+00:00),,,
+LA_E_8374049,bonafide,A1,S4,read final_outputs/.../merged_scores.csv (frozen AASIST-L score),,spoof,"score=-2.915393: spoof@1.7635419737, spoof@1.81681 (score of SUBSTITUTE file Y)",,,
+LA_E_1250691,bonafide,A4,S1,node scripts/verify_fully.js verify_fully.js LA_E_1250691.flac proof.json public.json record.json,0,ACCEPT,"FV ACCEPT [NEW proof, fabricated same-file metadata]",703,0,0
+LA_E_1250691,bonafide,A4,S2,node scripts/verify_fully.js verify_fully.js LA_E_1250691.flac proof.json public.json record.json  [Part B outcome of the same S1 run],0,ACCEPT,"Part B: FV ACCEPT [NEW proof, fabricated same-file metadata]",703,0,0
+LA_E_1250691,bonafide,A4,S3,python eval/s3_registry.py lookup 5e73db12116319ab...,,ACCEPT,ACCEPT enrolled (issued_at=2026-11-03T21:09:20.327662+00:00),,,
+LA_E_1250691,bonafide,A4,S4,read final_outputs/.../merged_scores.csv (frozen AASIST-L score),,bonafide,"score=6.154901: bonafide@1.7635419737, bonafide@1.81681",,,
+LA_E_2038545,bonafide,A4,S1,node scripts/verify_fully.js verify_fully.js LA_E_2038545.flac proof.json public.json record.json,0,ACCEPT,"FV ACCEPT [NEW proof, fabricated same-file metadata]",705,0,0
+LA_E_2038545,bonafide,A4,S2,node scripts/verify_fully.js verify_fully.js LA_E_2038545.flac proof.json public.json record.json  [Part B outcome of the same S1 run],0,ACCEPT,"Part B: FV ACCEPT [NEW proof, fabricated same-file metadata]",705,0,0
+LA_E_2038545,bonafide,A4,S3,python eval/s3_registry.py lookup 7dad0706013bbaed...,,ACCEPT,ACCEPT enrolled (issued_at=2026-11-03T21:09:28.459791+00:00),,,
+LA_E_2038545,bonafide,A4,S4,read final_outputs/.../merged_scores.csv (frozen AASIST-L score),,bonafide,"score=4.611598: bonafide@1.7635419737, bonafide@1.81681",,,
+LA_E_2142603,bonafide,A4,S1,node scripts/verify_fully.js verify_fully.js LA_E_2142603.flac proof.json public.json record.json,0,ACCEPT,"FV ACCEPT [NEW proof, fabricated same-file metadata]",699,0,0
+LA_E_2142603,bonafide,A4,S2,node scripts/verify_fully.js verify_fully.js LA_E_2142603.flac proof.json public.json record.json  [Part B outcome of the same S1 run],0,ACCEPT,"Part B: FV ACCEPT [NEW proof, fabricated same-file metadata]",699,0,0
+LA_E_2142603,bonafide,A4,S3,python eval/s3_registry.py lookup fa5d958cb348a2e7...,,ACCEPT,ACCEPT enrolled (issued_at=2026-11-03T21:09:34.804112+00:00),,,
+LA_E_2142603,bonafide,A4,S4,read final_outputs/.../merged_scores.csv (frozen AASIST-L score),,bonafide,"score=7.254474: bonafide@1.7635419737, bonafide@1.81681",,,
+LA_E_2424848,bonafide,A4,S1,node scripts/verify_fully.js verify_fully.js LA_E_2424848.flac proof.json public.json record.json,0,ACCEPT,"FV ACCEPT [NEW proof, fabricated same-file metadata]",688,0,0
+LA_E_2424848,bonafide,A4,S2,node scripts/verify_fully.js verify_fully.js LA_E_2424848.flac proof.json public.json record.json  [Part B outcome of the same S1 run],0,ACCEPT,"Part B: FV ACCEPT [NEW proof, fabricated same-file metadata]",688,0,0
+LA_E_2424848,bonafide,A4,S3,python eval/s3_registry.py lookup ed5c76ae7a582e8d...,,ACCEPT,ACCEPT enrolled (issued_at=2026-11-03T21:09:41.240709+00:00),,,
+LA_E_2424848,bonafide,A4,S4,read final_outputs/.../merged_scores.csv (frozen AASIST-L score),,bonafide,"score=6.65541: bonafide@1.7635419737, bonafide@1.81681",,,
+LA_E_3268226,bonafide,A4,S1,node scripts/verify_fully.js verify_fully.js LA_E_3268226.flac proof.json public.json record.json,0,ACCEPT,"FV ACCEPT [NEW proof, fabricated same-file metadata]",695,0,0
+LA_E_3268226,bonafide,A4,S2,node scripts/verify_fully.js verify_fully.js LA_E_3268226.flac proof.json public.json record.json  [Part B outcome of the same S1 run],0,ACCEPT,"Part B: FV ACCEPT [NEW proof, fabricated same-file metadata]",695,0,0
+LA_E_3268226,bonafide,A4,S3,python eval/s3_registry.py lookup c9692b2127f62712...,,ACCEPT,ACCEPT enrolled (issued_at=2026-11-03T21:09:46.441503+00:00),,,
+LA_E_3268226,bonafide,A4,S4,read final_outputs/.../merged_scores.csv (frozen AASIST-L score),,bonafide,"score=3.489299: bonafide@1.7635419737, bonafide@1.81681",,,
+LA_E_3471461,bonafide,A4,S1,node scripts/verify_fully.js verify_fully.js LA_E_3471461.flac proof.json public.json record.json,0,ACCEPT,"FV ACCEPT [NEW proof, fabricated same-file metadata]",697,0,0
+LA_E_3471461,bonafide,A4,S2,node scripts/verify_fully.js verify_fully.js LA_E_3471461.flac proof.json public.json record.json  [Part B outcome of the same S1 run],0,ACCEPT,"Part B: FV ACCEPT [NEW proof, fabricated same-file metadata]",697,0,0
+LA_E_3471461,bonafide,A4,S3,python eval/s3_registry.py lookup 1c4e2881382fcffa...,,ACCEPT,ACCEPT enrolled (issued_at=2026-11-03T21:09:52.162287+00:00),,,
+LA_E_3471461,bonafide,A4,S4,read final_outputs/.../merged_scores.csv (frozen AASIST-L score),,bonafide,"score=6.789537: bonafide@1.7635419737, bonafide@1.81681",,,
+LA_E_3745990,bonafide,A4,S1,node scripts/verify_fully.js verify_fully.js LA_E_3745990.flac proof.json public.json record.json,0,ACCEPT,"FV ACCEPT [NEW proof, fabricated same-file metadata]",724,0,0
+LA_E_3745990,bonafide,A4,S2,node scripts/verify_fully.js verify_fully.js LA_E_3745990.flac proof.json public.json record.json  [Part B outcome of the same S1 run],0,ACCEPT,"Part B: FV ACCEPT [NEW proof, fabricated same-file metadata]",724,0,0
+LA_E_3745990,bonafide,A4,S3,python eval/s3_registry.py lookup 05e1965ed274322b...,,ACCEPT,ACCEPT enrolled (issued_at=2026-11-03T21:09:57.986063+00:00),,,
+LA_E_3745990,bonafide,A4,S4,read final_outputs/.../merged_scores.csv (frozen AASIST-L score),,bonafide,"score=8.186983: bonafide@1.7635419737, bonafide@1.81681",,,
+LA_E_7328013,bonafide,A4,S1,node scripts/verify_fully.js verify_fully.js LA_E_7328013.flac proof.json public.json record.json,0,ACCEPT,"FV ACCEPT [NEW proof, fabricated same-file metadata]",696,0,0
+LA_E_7328013,bonafide,A4,S2,node scripts/verify_fully.js verify_fully.js LA_E_7328013.flac proof.json public.json record.json  [Part B outcome of the same S1 run],0,ACCEPT,"Part B: FV ACCEPT [NEW proof, fabricated same-file metadata]",696,0,0
+LA_E_7328013,bonafide,A4,S3,python eval/s3_registry.py lookup 7f103e10d755da59...,,ACCEPT,ACCEPT enrolled (issued_at=2026-11-03T21:10:03.293796+00:00),,,
+LA_E_7328013,bonafide,A4,S4,read final_outputs/.../merged_scores.csv (frozen AASIST-L score),,bonafide,"score=6.253436: bonafide@1.7635419737, bonafide@1.81681",,,
+LA_E_8313081,bonafide,A4,S1,node scripts/verify_fully.js verify_fully.js LA_E_8313081.flac proof.json public.json record.json,0,ACCEPT,"FV ACCEPT [NEW proof, fabricated same-file metadata]",704,0,0
+LA_E_8313081,bonafide,A4,S2,node scripts/verify_fully.js verify_fully.js LA_E_8313081.flac proof.json public.json record.json  [Part B outcome of the same S1 run],0,ACCEPT,"Part B: FV ACCEPT [NEW proof, fabricated same-file metadata]",704,0,0
+LA_E_8313081,bonafide,A4,S3,python eval/s3_registry.py lookup b87d99a60c38514b...,,ACCEPT,ACCEPT enrolled (issued_at=2026-11-03T21:10:07.955694+00:00),,,
+LA_E_8313081,bonafide,A4,S4,read final_outputs/.../merged_scores.csv (frozen AASIST-L score),,bonafide,"score=6.268284: bonafide@1.7635419737, bonafide@1.81681",,,
+LA_E_8374049,bonafide,A4,S1,node scripts/verify_fully.js verify_fully.js LA_E_8374049.flac proof.json public.json record.json,0,ACCEPT,"FV ACCEPT [NEW proof, fabricated same-file metadata]",672,0,0
+LA_E_8374049,bonafide,A4,S2,node scripts/verify_fully.js verify_fully.js LA_E_8374049.flac proof.json public.json record.json  [Part B outcome of the same S1 run],0,ACCEPT,"Part B: FV ACCEPT [NEW proof, fabricated same-file metadata]",672,0,0
+LA_E_8374049,bonafide,A4,S3,python eval/s3_registry.py lookup 60083f6d7d68d600...,,ACCEPT,ACCEPT enrolled (issued_at=2026-11-03T21:10:13.845982+00:00),,,
+LA_E_8374049,bonafide,A4,S4,read final_outputs/.../merged_scores.csv (frozen AASIST-L score),,spoof,"score=1.447822: spoof@1.7635419737, spoof@1.81681",,,
+LA_E_1250691,bonafide,A6,S1,node scripts/verify_fully.js verify_fully.js LA_E_1250691.flac proof.json public.json record.json,0,ACCEPT,FV ACCEPT [replay: same record+file; issued_at_utc never checked],690,0,0
+LA_E_1250691,bonafide,A6,S2,node scripts/verify_fully.js verify_fully.js LA_E_1250691.flac proof.json public.json record.json  [Part B outcome of the same S1 run],0,ACCEPT,Part B: FV ACCEPT [replay: same record+file; issued_at_utc never checked],690,0,0
+LA_E_1250691,bonafide,A6,S3,python eval/s3_registry.py lookup 5e73db12116319ab...,,ACCEPT,ACCEPT enrolled (issued_at=2026-11-03T21:09:20.327662+00:00),,,
+LA_E_1250691,bonafide,A6,S4,read final_outputs/.../merged_scores.csv (frozen AASIST-L score),,bonafide,"score=6.154901: bonafide@1.7635419737, bonafide@1.81681",,,
+LA_E_2038545,bonafide,A6,S1,node scripts/verify_fully.js verify_fully.js LA_E_2038545.flac proof.json public.json record.json,0,ACCEPT,FV ACCEPT [replay: same record+file; issued_at_utc never checked],739,0,0
+LA_E_2038545,bonafide,A6,S2,node scripts/verify_fully.js verify_fully.js LA_E_2038545.flac proof.json public.json record.json  [Part B outcome of the same S1 run],0,ACCEPT,Part B: FV ACCEPT [replay: same record+file; issued_at_utc never checked],739,0,0
+LA_E_2038545,bonafide,A6,S3,python eval/s3_registry.py lookup 7dad0706013bbaed...,,ACCEPT,ACCEPT enrolled (issued_at=2026-11-03T21:09:28.459791+00:00),,,
+LA_E_2038545,bonafide,A6,S4,read final_outputs/.../merged_scores.csv (frozen AASIST-L score),,bonafide,"score=4.611598: bonafide@1.7635419737, bonafide@1.81681",,,
+LA_E_2142603,bonafide,A6,S1,node scripts/verify_fully.js verify_fully.js LA_E_2142603.flac proof.json public.json record.json,0,ACCEPT,FV ACCEPT [replay: same record+file; issued_at_utc never checked],675,0,0
+LA_E_2142603,bonafide,A6,S2,node scripts/verify_fully.js verify_fully.js LA_E_2142603.flac proof.json public.json record.json  [Part B outcome of the same S1 run],0,ACCEPT,Part B: FV ACCEPT [replay: same record+file; issued_at_utc never checked],675,0,0
+LA_E_2142603,bonafide,A6,S3,python eval/s3_registry.py lookup fa5d958cb348a2e7...,,ACCEPT,ACCEPT enrolled (issued_at=2026-11-03T21:09:34.804112+00:00),,,
+LA_E_2142603,bonafide,A6,S4,read final_outputs/.../merged_scores.csv (frozen AASIST-L score),,bonafide,"score=7.254474: bonafide@1.7635419737, bonafide@1.81681",,,
+LA_E_2424848,bonafide,A6,S1,node scripts/verify_fully.js verify_fully.js LA_E_2424848.flac proof.json public.json record.json,0,ACCEPT,FV ACCEPT [replay: same record+file; issued_at_utc never checked],695,0,0
+LA_E_2424848,bonafide,A6,S2,node scripts/verify_fully.js verify_fully.js LA_E_2424848.flac proof.json public.json record.json  [Part B outcome of the same S1 run],0,ACCEPT,Part B: FV ACCEPT [replay: same record+file; issued_at_utc never checked],695,0,0
+LA_E_2424848,bonafide,A6,S3,python eval/s3_registry.py lookup ed5c76ae7a582e8d...,,ACCEPT,ACCEPT enrolled (issued_at=2026-11-03T21:09:41.240709+00:00),,,
+LA_E_2424848,bonafide,A6,S4,read final_outputs/.../merged_scores.csv (frozen AASIST-L score),,bonafide,"score=6.65541: bonafide@1.7635419737, bonafide@1.81681",,,
+LA_E_3268226,bonafide,A6,S1,node scripts/verify_fully.js verify_fully.js LA_E_3268226.flac proof.json public.json record.json,0,ACCEPT,FV ACCEPT [replay: same record+file; issued_at_utc never checked],722,0,0
+LA_E_3268226,bonafide,A6,S2,node scripts/verify_fully.js verify_fully.js LA_E_3268226.flac proof.json public.json record.json  [Part B outcome of the same S1 run],0,ACCEPT,Part B: FV ACCEPT [replay: same record+file; issued_at_utc never checked],722,0,0
+LA_E_3268226,bonafide,A6,S3,python eval/s3_registry.py lookup c9692b2127f62712...,,ACCEPT,ACCEPT enrolled (issued_at=2026-11-03T21:09:46.441503+00:00),,,
+LA_E_3268226,bonafide,A6,S4,read final_outputs/.../merged_scores.csv (frozen AASIST-L score),,bonafide,"score=3.489299: bonafide@1.7635419737, bonafide@1.81681",,,
+LA_E_3471461,bonafide,A6,S1,node scripts/verify_fully.js verify_fully.js LA_E_3471461.flac proof.json public.json record.json,0,ACCEPT,FV ACCEPT [replay: same record+file; issued_at_utc never checked],674,0,0
+LA_E_3471461,bonafide,A6,S2,node scripts/verify_fully.js verify_fully.js LA_E_3471461.flac proof.json public.json record.json  [Part B outcome of the same S1 run],0,ACCEPT,Part B: FV ACCEPT [replay: same record+file; issued_at_utc never checked],674,0,0
+LA_E_3471461,bonafide,A6,S3,python eval/s3_registry.py lookup 1c4e2881382fcffa...,,ACCEPT,ACCEPT enrolled (issued_at=2026-11-03T21:09:52.162287+00:00),,,
+LA_E_3471461,bonafide,A6,S4,read final_outputs/.../merged_scores.csv (frozen AASIST-L score),,bonafide,"score=6.789537: bonafide@1.7635419737, bonafide@1.81681",,,
+LA_E_3745990,bonafide,A6,S1,node scripts/verify_fully.js verify_fully.js LA_E_3745990.flac proof.json public.json record.json,0,ACCEPT,FV ACCEPT [replay: same record+file; issued_at_utc never checked],696,0,0
+LA_E_3745990,bonafide,A6,S2,node scripts/verify_fully.js verify_fully.js LA_E_3745990.flac proof.json public.json record.json  [Part B outcome of the same S1 run],0,ACCEPT,Part B: FV ACCEPT [replay: same record+file; issued_at_utc never checked],696,0,0
+LA_E_3745990,bonafide,A6,S3,python eval/s3_registry.py lookup 05e1965ed274322b...,,ACCEPT,ACCEPT enrolled (issued_at=2026-11-03T21:09:57.986063+00:00),,,
+LA_E_3745990,bonafide,A6,S4,read final_outputs/.../merged_scores.csv (frozen AASIST-L score),,bonafide,"score=8.186983: bonafide@1.7635419737, bonafide@1.81681",,,
+LA_E_7328013,bonafide,A6,S1,node scripts/verify_fully.js verify_fully.js LA_E_7328013.flac proof.json public.json record.json,0,ACCEPT,FV ACCEPT [replay: same record+file; issued_at_utc never checked],694,0,0
+LA_E_7328013,bonafide,A6,S2,node scripts/verify_fully.js verify_fully.js LA_E_7328013.flac proof.json public.json record.json  [Part B outcome of the same S1 run],0,ACCEPT,Part B: FV ACCEPT [replay: same record+file; issued_at_utc never checked],694,0,0
+LA_E_7328013,bonafide,A6,S3,python eval/s3_registry.py lookup 7f103e10d755da59...,,ACCEPT,ACCEPT enrolled (issued_at=2026-11-03T21:10:03.293796+00:00),,,
+LA_E_7328013,bonafide,A6,S4,read final_outputs/.../merged_scores.csv (frozen AASIST-L score),,bonafide,"score=6.253436: bonafide@1.7635419737, bonafide@1.81681",,,
+LA_E_8313081,bonafide,A6,S1,node scripts/verify_fully.js verify_fully.js LA_E_8313081.flac proof.json public.json record.json,0,ACCEPT,FV ACCEPT [replay: same record+file; issued_at_utc never checked],691,0,0
+LA_E_8313081,bonafide,A6,S2,node scripts/verify_fully.js verify_fully.js LA_E_8313081.flac proof.json public.json record.json  [Part B outcome of the same S1 run],0,ACCEPT,Part B: FV ACCEPT [replay: same record+file; issued_at_utc never checked],691,0,0
+LA_E_8313081,bonafide,A6,S3,python eval/s3_registry.py lookup b87d99a60c38514b...,,ACCEPT,ACCEPT enrolled (issued_at=2026-11-03T21:10:07.955694+00:00),,,
+LA_E_8313081,bonafide,A6,S4,read final_outputs/.../merged_scores.csv (frozen AASIST-L score),,bonafide,"score=6.268284: bonafide@1.7635419737, bonafide@1.81681",,,
+LA_E_8374049,bonafide,A6,S1,node scripts/verify_fully.js verify_fully.js LA_E_8374049.flac proof.json public.json record.json,0,ACCEPT,FV ACCEPT [replay: same record+file; issued_at_utc never checked],712,0,0
+LA_E_8374049,bonafide,A6,S2,node scripts/verify_fully.js verify_fully.js LA_E_8374049.flac proof.json public.json record.json  [Part B outcome of the same S1 run],0,ACCEPT,Part B: FV ACCEPT [replay: same record+file; issued_at_utc never checked],712,0,0
+LA_E_8374049,bonafide,A6,S3,python eval/s3_registry.py lookup 60083f6d7d68d600...,,ACCEPT,ACCEPT enrolled (issued_at=2026-11-03T21:10:13.845982+00:00),,,
+LA_E_8374049,bonafide,A6,S4,read final_outputs/.../merged_scores.csv (frozen AASIST-L score),,spoof,"score=1.447822: spoof@1.7635419737, spoof@1.81681",,,
+LA_E_9394669,spoof(A18),A7,S1,node scripts/verify_fully.js verify_fully.js LA_E_9394669.flac proof.json public.json record.json,0,ACCEPT,FV ACCEPT [enrolled spoof],710,0,0
+LA_E_9394669,spoof(A18),A7,S2,node scripts/verify_fully.js verify_fully.js LA_E_9394669.flac proof.json public.json record.json  [Part B outcome of the same S1 run],0,ACCEPT,Part B: FV ACCEPT [enrolled spoof],710,0,0
+LA_E_9394669,spoof,A7,S3,python eval/s3_registry.py lookup 2172692ef693fa6e...,,ACCEPT,ACCEPT enrolled (issued_at=2026-11-03T21:10:19.148144+00:00),,,
+LA_E_9394669,spoof,A7,S4,read final_outputs/.../merged_scores.csv (frozen AASIST-L score),,spoof,"score=-2.915393: spoof@1.7635419737, spoof@1.81681 attack=A18",,,
+LA_E_1440544,spoof(A17),A7,S1,node scripts/verify_fully.js verify_fully.js LA_E_1440544.flac proof.json public.json record.json,0,ACCEPT,FV ACCEPT [enrolled spoof],688,0,0
+LA_E_1440544,spoof(A17),A7,S2,node scripts/verify_fully.js verify_fully.js LA_E_1440544.flac proof.json public.json record.json  [Part B outcome of the same S1 run],0,ACCEPT,Part B: FV ACCEPT [enrolled spoof],688,0,0
+LA_E_1440544,spoof,A7,S3,python eval/s3_registry.py lookup a64ff6ae3bcac48b...,,ACCEPT,ACCEPT enrolled (issued_at=2026-11-03T21:10:24.349933+00:00),,,
+LA_E_1440544,spoof,A7,S4,read final_outputs/.../merged_scores.csv (frozen AASIST-L score),,spoof,"score=-2.040203: spoof@1.7635419737, spoof@1.81681 attack=A17",,,
+LA_E_4468356,spoof(A15),A7,S1,node scripts/verify_fully.js verify_fully.js LA_E_4468356.flac proof.json public.json record.json,0,ACCEPT,FV ACCEPT [enrolled spoof],705,0,0
+LA_E_4468356,spoof(A15),A7,S2,node scripts/verify_fully.js verify_fully.js LA_E_4468356.flac proof.json public.json record.json  [Part B outcome of the same S1 run],0,ACCEPT,Part B: FV ACCEPT [enrolled spoof],705,0,0
+LA_E_4468356,spoof,A7,S3,python eval/s3_registry.py lookup 86dab04d0a2a1718...,,ACCEPT,ACCEPT enrolled (issued_at=2026-11-03T21:10:29.654222+00:00),,,
+LA_E_4468356,spoof,A7,S4,read final_outputs/.../merged_scores.csv (frozen AASIST-L score),,spoof,"score=-1.933068: spoof@1.7635419737, spoof@1.81681 attack=A15",,,
+LA_E_2418475,spoof(A13),A7,S1,node scripts/verify_fully.js verify_fully.js LA_E_2418475.flac proof.json public.json record.json,0,ACCEPT,FV ACCEPT [enrolled spoof],711,0,0
+LA_E_2418475,spoof(A13),A7,S2,node scripts/verify_fully.js verify_fully.js LA_E_2418475.flac proof.json public.json record.json  [Part B outcome of the same S1 run],0,ACCEPT,Part B: FV ACCEPT [enrolled spoof],711,0,0
+LA_E_2418475,spoof,A7,S3,python eval/s3_registry.py lookup befa6634a0a4f821...,,ACCEPT,ACCEPT enrolled (issued_at=2026-11-03T21:10:34.727989+00:00),,,
+LA_E_2418475,spoof,A7,S4,read final_outputs/.../merged_scores.csv (frozen AASIST-L score),,spoof,"score=-3.965557: spoof@1.7635419737, spoof@1.81681 attack=A13",,,
+LA_E_7291384,spoof(A10),A7,S1,node scripts/verify_fully.js verify_fully.js LA_E_7291384.flac proof.json public.json record.json,0,ACCEPT,FV ACCEPT [enrolled spoof],701,0,0
+LA_E_7291384,spoof(A10),A7,S2,node scripts/verify_fully.js verify_fully.js LA_E_7291384.flac proof.json public.json record.json  [Part B outcome of the same S1 run],0,ACCEPT,Part B: FV ACCEPT [enrolled spoof],701,0,0
+LA_E_7291384,spoof,A7,S3,python eval/s3_registry.py lookup 812f6689b6602c61...,,ACCEPT,ACCEPT enrolled (issued_at=2026-11-03T21:10:40.452218+00:00),,,
+LA_E_7291384,spoof,A7,S4,read final_outputs/.../merged_scores.csv (frozen AASIST-L score),,spoof,"score=-4.927604: spoof@1.7635419737, spoof@1.81681 attack=A10",,,
+LA_E_4332576,spoof(A14),A7,S1,node scripts/verify_fully.js verify_fully.js LA_E_4332576.flac proof.json public.json record.json,0,ACCEPT,FV ACCEPT [enrolled spoof],708,0,0
+LA_E_4332576,spoof(A14),A7,S2,node scripts/verify_fully.js verify_fully.js LA_E_4332576.flac proof.json public.json record.json  [Part B outcome of the same S1 run],0,ACCEPT,Part B: FV ACCEPT [enrolled spoof],708,0,0
+LA_E_4332576,spoof,A7,S3,python eval/s3_registry.py lookup 77aaa5b333101fa3...,,ACCEPT,ACCEPT enrolled (issued_at=2026-11-03T21:10:45.710519+00:00),,,
+LA_E_4332576,spoof,A7,S4,read final_outputs/.../merged_scores.csv (frozen AASIST-L score),,spoof,"score=-8.209902: spoof@1.7635419737, spoof@1.81681 attack=A14",,,
+LA_E_1460951,spoof(A11),A7,S1,node scripts/verify_fully.js verify_fully.js LA_E_1460951.flac proof.json public.json record.json,0,ACCEPT,FV ACCEPT [enrolled spoof],711,0,0
+LA_E_1460951,spoof(A11),A7,S2,node scripts/verify_fully.js verify_fully.js LA_E_1460951.flac proof.json public.json record.json  [Part B outcome of the same S1 run],0,ACCEPT,Part B: FV ACCEPT [enrolled spoof],711,0,0
+LA_E_1460951,spoof,A7,S3,python eval/s3_registry.py lookup fe40c8e04f49da1d...,,ACCEPT,ACCEPT enrolled (issued_at=2026-11-03T21:10:51.448910+00:00),,,
+LA_E_1460951,spoof,A7,S4,read final_outputs/.../merged_scores.csv (frozen AASIST-L score),,spoof,"score=-4.307597: spoof@1.7635419737, spoof@1.81681 attack=A11",,,
+LA_E_9857739,spoof(A09),A7,S1,node scripts/verify_fully.js verify_fully.js LA_E_9857739.flac proof.json public.json record.json,0,ACCEPT,FV ACCEPT [enrolled spoof],691,0,0
+LA_E_9857739,spoof(A09),A7,S2,node scripts/verify_fully.js verify_fully.js LA_E_9857739.flac proof.json public.json record.json  [Part B outcome of the same S1 run],0,ACCEPT,Part B: FV ACCEPT [enrolled spoof],691,0,0
+LA_E_9857739,spoof,A7,S3,python eval/s3_registry.py lookup 505bee4029b89ecd...,,ACCEPT,ACCEPT enrolled (issued_at=2026-11-03T21:10:56.636224+00:00),,,
+LA_E_9857739,spoof,A7,S4,read final_outputs/.../merged_scores.csv (frozen AASIST-L score),,spoof,"score=-9.322503: spoof@1.7635419737, spoof@1.81681 attack=A09",,,
+LA_E_9181983,spoof(A07),A7,S1,node scripts/verify_fully.js verify_fully.js LA_E_9181983.flac proof.json public.json record.json,0,ACCEPT,FV ACCEPT [enrolled spoof],719,0,0
+LA_E_9181983,spoof(A07),A7,S2,node scripts/verify_fully.js verify_fully.js LA_E_9181983.flac proof.json public.json record.json  [Part B outcome of the same S1 run],0,ACCEPT,Part B: FV ACCEPT [enrolled spoof],719,0,0
+LA_E_9181983,spoof,A7,S3,python eval/s3_registry.py lookup 5e7b0c442a5c2754...,,ACCEPT,ACCEPT enrolled (issued_at=2026-11-03T21:11:02.943601+00:00),,,
+LA_E_9181983,spoof,A7,S4,read final_outputs/.../merged_scores.csv (frozen AASIST-L score),,spoof,"score=-3.763354: spoof@1.7635419737, spoof@1.81681 attack=A07",,,
+LA_E_2311112,spoof(A08),A7,S1,node scripts/verify_fully.js verify_fully.js LA_E_2311112.flac proof.json public.json record.json,0,ACCEPT,FV ACCEPT [enrolled spoof],681,0,0
+LA_E_2311112,spoof(A08),A7,S2,node scripts/verify_fully.js verify_fully.js LA_E_2311112.flac proof.json public.json record.json  [Part B outcome of the same S1 run],0,ACCEPT,Part B: FV ACCEPT [enrolled spoof],681,0,0
+LA_E_2311112,spoof,A7,S3,python eval/s3_registry.py lookup 7a9f38533444b361...,,ACCEPT,ACCEPT enrolled (issued_at=2026-11-03T21:11:08.268890+00:00),,,
+LA_E_2311112,spoof,A7,S4,read final_outputs/.../merged_scores.csv (frozen AASIST-L score),,spoof,"score=-6.679024: spoof@1.7635419737, spoof@1.81681 attack=A08",,,
+LA_E_9394669,spoof,A5,S1,node scripts/verify_fully.js <same argv as A7>  [tampered_demo_result.json present],0,ACCEPT,verifier output byte-IDENTICAL vs untampered A7 run; true detector score=-2.915393 (spoof) forged to 7.5/bonafide,673,0,0
+LA_E_9394669,spoof,A5,S2,node scripts/verify_fully.js <same argv as A7>  [tampered_demo_result.json present],0,ACCEPT,Part B: as S1 (record checks pass; manifest never read),673,0,0
+LA_E_9394669,spoof,A5,S3,python eval/s3_registry.py lookup 2172692ef693fa6e...,,ACCEPT,ACCEPT enrolled (issued_at=2026-11-03T21:10:19.148144+00:00) (registry holds no detector data; tampering invisible),,,
+LA_E_9394669,spoof,A5,S4,read final_outputs/.../merged_scores.csv (frozen AASIST-L score),,bonafide,"score=7.5: bonafide@1.7635419737, bonafide@1.81681 (FORGED; true score=-2.915393 -> spoof)",,,
+LA_E_1440544,spoof,A5,S1,node scripts/verify_fully.js <same argv as A7>  [tampered_demo_result.json present],0,ACCEPT,verifier output byte-IDENTICAL vs untampered A7 run; true detector score=-2.040203 (spoof) forged to 7.5/bonafide,682,0,0
+LA_E_1440544,spoof,A5,S2,node scripts/verify_fully.js <same argv as A7>  [tampered_demo_result.json present],0,ACCEPT,Part B: as S1 (record checks pass; manifest never read),682,0,0
+LA_E_1440544,spoof,A5,S3,python eval/s3_registry.py lookup a64ff6ae3bcac48b...,,ACCEPT,ACCEPT enrolled (issued_at=2026-11-03T21:10:24.349933+00:00) (registry holds no detector data; tampering invisible),,,
+LA_E_1440544,spoof,A5,S4,read final_outputs/.../merged_scores.csv (frozen AASIST-L score),,bonafide,"score=7.5: bonafide@1.7635419737, bonafide@1.81681 (FORGED; true score=-2.040203 -> spoof)",,,
+LA_E_4468356,spoof,A5,S1,node scripts/verify_fully.js <same argv as A7>  [tampered_demo_result.json present],0,ACCEPT,verifier output byte-IDENTICAL vs untampered A7 run; true detector score=-1.933068 (spoof) forged to 7.5/bonafide,681,0,0
+LA_E_4468356,spoof,A5,S2,node scripts/verify_fully.js <same argv as A7>  [tampered_demo_result.json present],0,ACCEPT,Part B: as S1 (record checks pass; manifest never read),681,0,0
+LA_E_4468356,spoof,A5,S3,python eval/s3_registry.py lookup 86dab04d0a2a1718...,,ACCEPT,ACCEPT enrolled (issued_at=2026-11-03T21:10:29.654222+00:00) (registry holds no detector data; tampering invisible),,,
+LA_E_4468356,spoof,A5,S4,read final_outputs/.../merged_scores.csv (frozen AASIST-L score),,bonafide,"score=7.5: bonafide@1.7635419737, bonafide@1.81681 (FORGED; true score=-1.933068 -> spoof)",,,
+LA_E_2418475,spoof,A5,S1,node scripts/verify_fully.js <same argv as A7>  [tampered_demo_result.json present],0,ACCEPT,verifier output byte-IDENTICAL vs untampered A7 run; true detector score=-3.965557 (spoof) forged to 7.5/bonafide,686,0,0
+LA_E_2418475,spoof,A5,S2,node scripts/verify_fully.js <same argv as A7>  [tampered_demo_result.json present],0,ACCEPT,Part B: as S1 (record checks pass; manifest never read),686,0,0
+LA_E_2418475,spoof,A5,S3,python eval/s3_registry.py lookup befa6634a0a4f821...,,ACCEPT,ACCEPT enrolled (issued_at=2026-11-03T21:10:34.727989+00:00) (registry holds no detector data; tampering invisible),,,
+LA_E_2418475,spoof,A5,S4,read final_outputs/.../merged_scores.csv (frozen AASIST-L score),,bonafide,"score=7.5: bonafide@1.7635419737, bonafide@1.81681 (FORGED; true score=-3.965557 -> spoof)",,,
+LA_E_7291384,spoof,A5,S1,node scripts/verify_fully.js <same argv as A7>  [tampered_demo_result.json present],0,ACCEPT,verifier output byte-IDENTICAL vs untampered A7 run; true detector score=-4.927604 (spoof) forged to 7.5/bonafide,700,0,0
+LA_E_7291384,spoof,A5,S2,node scripts/verify_fully.js <same argv as A7>  [tampered_demo_result.json present],0,ACCEPT,Part B: as S1 (record checks pass; manifest never read),700,0,0
+LA_E_7291384,spoof,A5,S3,python eval/s3_registry.py lookup 812f6689b6602c61...,,ACCEPT,ACCEPT enrolled (issued_at=2026-11-03T21:10:40.452218+00:00) (registry holds no detector data; tampering invisible),,,
+LA_E_7291384,spoof,A5,S4,read final_outputs/.../merged_scores.csv (frozen AASIST-L score),,bonafide,"score=7.5: bonafide@1.7635419737, bonafide@1.81681 (FORGED; true score=-4.927604 -> spoof)",,,
+LA_E_4332576,spoof,A5,S1,node scripts/verify_fully.js <same argv as A7>  [tampered_demo_result.json present],0,ACCEPT,verifier output byte-IDENTICAL vs untampered A7 run; true detector score=-8.209902 (spoof) forged to 7.5/bonafide,692,0,0
+LA_E_4332576,spoof,A5,S2,node scripts/verify_fully.js <same argv as A7>  [tampered_demo_result.json present],0,ACCEPT,Part B: as S1 (record checks pass; manifest never read),692,0,0
+LA_E_4332576,spoof,A5,S3,python eval/s3_registry.py lookup 77aaa5b333101fa3...,,ACCEPT,ACCEPT enrolled (issued_at=2026-11-03T21:10:45.710519+00:00) (registry holds no detector data; tampering invisible),,,
+LA_E_4332576,spoof,A5,S4,read final_outputs/.../merged_scores.csv (frozen AASIST-L score),,bonafide,"score=7.5: bonafide@1.7635419737, bonafide@1.81681 (FORGED; true score=-8.209902 -> spoof)",,,
+LA_E_1460951,spoof,A5,S1,node scripts/verify_fully.js <same argv as A7>  [tampered_demo_result.json present],0,ACCEPT,verifier output byte-IDENTICAL vs untampered A7 run; true detector score=-4.307597 (spoof) forged to 7.5/bonafide,720,0,0
+LA_E_1460951,spoof,A5,S2,node scripts/verify_fully.js <same argv as A7>  [tampered_demo_result.json present],0,ACCEPT,Part B: as S1 (record checks pass; manifest never read),720,0,0
+LA_E_1460951,spoof,A5,S3,python eval/s3_registry.py lookup fe40c8e04f49da1d...,,ACCEPT,ACCEPT enrolled (issued_at=2026-11-03T21:10:51.448910+00:00) (registry holds no detector data; tampering invisible),,,
+LA_E_1460951,spoof,A5,S4,read final_outputs/.../merged_scores.csv (frozen AASIST-L score),,bonafide,"score=7.5: bonafide@1.7635419737, bonafide@1.81681 (FORGED; true score=-4.307597 -> spoof)",,,
+LA_E_9857739,spoof,A5,S1,node scripts/verify_fully.js <same argv as A7>  [tampered_demo_result.json present],0,ACCEPT,verifier output byte-IDENTICAL vs untampered A7 run; true detector score=-9.322503 (spoof) forged to 7.5/bonafide,685,0,0
+LA_E_9857739,spoof,A5,S2,node scripts/verify_fully.js <same argv as A7>  [tampered_demo_result.json present],0,ACCEPT,Part B: as S1 (record checks pass; manifest never read),685,0,0
+LA_E_9857739,spoof,A5,S3,python eval/s3_registry.py lookup 505bee4029b89ecd...,,ACCEPT,ACCEPT enrolled (issued_at=2026-11-03T21:10:56.636224+00:00) (registry holds no detector data; tampering invisible),,,
+LA_E_9857739,spoof,A5,S4,read final_outputs/.../merged_scores.csv (frozen AASIST-L score),,bonafide,"score=7.5: bonafide@1.7635419737, bonafide@1.81681 (FORGED; true score=-9.322503 -> spoof)",,,
+LA_E_9181983,spoof,A5,S1,node scripts/verify_fully.js <same argv as A7>  [tampered_demo_result.json present],0,ACCEPT,verifier output byte-IDENTICAL vs untampered A7 run; true detector score=-3.763354 (spoof) forged to 7.5/bonafide,688,0,0
+LA_E_9181983,spoof,A5,S2,node scripts/verify_fully.js <same argv as A7>  [tampered_demo_result.json present],0,ACCEPT,Part B: as S1 (record checks pass; manifest never read),688,0,0
+LA_E_9181983,spoof,A5,S3,python eval/s3_registry.py lookup 5e7b0c442a5c2754...,,ACCEPT,ACCEPT enrolled (issued_at=2026-11-03T21:11:02.943601+00:00) (registry holds no detector data; tampering invisible),,,
+LA_E_9181983,spoof,A5,S4,read final_outputs/.../merged_scores.csv (frozen AASIST-L score),,bonafide,"score=7.5: bonafide@1.7635419737, bonafide@1.81681 (FORGED; true score=-3.763354 -> spoof)",,,
+LA_E_2311112,spoof,A5,S1,node scripts/verify_fully.js <same argv as A7>  [tampered_demo_result.json present],0,ACCEPT,verifier output byte-IDENTICAL vs untampered A7 run; true detector score=-6.679024 (spoof) forged to 7.5/bonafide,707,0,0
+LA_E_2311112,spoof,A5,S2,node scripts/verify_fully.js <same argv as A7>  [tampered_demo_result.json present],0,ACCEPT,Part B: as S1 (record checks pass; manifest never read),707,0,0
+LA_E_2311112,spoof,A5,S3,python eval/s3_registry.py lookup 7a9f38533444b361...,,ACCEPT,ACCEPT enrolled (issued_at=2026-11-03T21:11:08.268890+00:00) (registry holds no detector data; tampering invisible),,,
+LA_E_2311112,spoof,A5,S4,read final_outputs/.../merged_scores.csv (frozen AASIST-L score),,bonafide,"score=7.5: bonafide@1.7635419737, bonafide@1.81681 (FORGED; true score=-6.679024 -> spoof)",,,
+LA_E_1000147,spoof(A17),A1,S1,node scripts/verify_fully.js LA_E_1000147.flac run_1000147/proof.json run_1000147/public.json genuine/../LA_E_1250691/record.json [A1sup],1,REJECT,unparseable [supplementary: UNENROLLED substitute vs original record],,,
+LA_E_1000147,spoof(A17),A1,S2,same run as S1 row,1,REJECT,Part B: unparseable [supplementary: UNENROLLED substitute],,,
+LA_E_1000147,spoof(A17),A1,S3,python eval/s3_registry.py lookup 2ad62de3297db24e...,,REJECT,REJECT hash not enrolled [supplementary: unenrolled substitute],,,

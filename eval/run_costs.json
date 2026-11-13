@@ -1,0 +1,446 @@
+{
+  "started_utc": "2026-11-03T21:09:12Z",
+  "enrollment": [
+    {
+      "file_id": "LA_E_1250691",
+      "label": "genuine",
+      "attack_id": "",
+      "ms_total": 6471,
+      "stage_ms": {
+        "audio": 1,
+        "detect": 4405,
+        "hash": 9,
+        "prove": 1214,
+        "verify": 342
+      },
+      "peak_node_mb": 363.2,
+      "peak_python_mb": 0
+    },
+    {
+      "file_id": "LA_E_2038545",
+      "label": "genuine",
+      "attack_id": "",
+      "ms_total": 7156,
+      "stage_ms": {
+        "audio": 0,
+        "detect": 4702,
+        "hash": 9,
+        "prove": 1607,
+        "verify": 394
+      },
+      "peak_node_mb": 365.8,
+      "peak_python_mb": 0
+    },
+    {
+      "file_id": "LA_E_2142603",
+      "label": "genuine",
+      "attack_id": "",
+      "ms_total": 5397,
+      "stage_ms": {
+        "audio": 1,
+        "detect": 2994,
+        "hash": 9,
+        "prove": 1381,
+        "verify": 358
+      },
+      "peak_node_mb": 363.4,
+      "peak_python_mb": 0
+    },
+    {
+      "file_id": "LA_E_2424848",
+      "label": "genuine",
+      "attack_id": "",
+      "ms_total": 5389,
+      "stage_ms": {
+        "audio": 1,
+        "detect": 3031,
+        "hash": 9,
+        "prove": 1412,
+        "verify": 323
+      },
+      "peak_node_mb": 367.3,
+      "peak_python_mb": 0
+    },
+    {
+      "file_id": "LA_E_3268226",
+      "label": "genuine",
+      "attack_id": "",
+      "ms_total": 4276,
+      "stage_ms": {
+        "audio": 0,
+        "detect": 2730,
+        "hash": 6,
+        "prove": 573,
+        "verify": 322
+      },
+      "peak_node_mb": 366.3,
+      "peak_python_mb": 0
+    },
+    {
+      "file_id": "LA_E_3471461",
+      "label": "genuine",
+      "attack_id": "",
+      "ms_total": 4836,
+      "stage_ms": {
+        "audio": 1,
+        "detect": 2821,
+        "hash": 5,
+        "prove": 1049,
+        "verify": 318
+      },
+      "peak_node_mb": 361.2,
+      "peak_python_mb": 0
+    },
+    {
+      "file_id": "LA_E_3745990",
+      "label": "genuine",
+      "attack_id": "",
+      "ms_total": 4878,
+      "stage_ms": {
+        "audio": 0,
+        "detect": 2791,
+        "hash": 3,
+        "prove": 930,
+        "verify": 331
+      },
+      "peak_node_mb": 355.1,
+      "peak_python_mb": 0
+    },
+    {
+      "file_id": "LA_E_7328013",
+      "label": "genuine",
+      "attack_id": "",
+      "ms_total": 4329,
+      "stage_ms": {
+        "audio": 0,
+        "detect": 2751,
+        "hash": 6,
+        "prove": 664,
+        "verify": 322
+      },
+      "peak_node_mb": 362.7,
+      "peak_python_mb": 0
+    },
+    {
+      "file_id": "LA_E_8313081",
+      "label": "genuine",
+      "attack_id": "",
+      "ms_total": 3803,
+      "stage_ms": {
+        "audio": 0,
+        "detect": 2696,
+        "hash": 9,
+        "prove": 318,
+        "verify": 335
+      },
+      "peak_node_mb": 364.2,
+      "peak_python_mb": 0
+    },
+    {
+      "file_id": "LA_E_8374049",
+      "label": "genuine",
+      "attack_id": "",
+      "ms_total": 4898,
+      "stage_ms": {
+        "audio": 0,
+        "detect": 2851,
+        "hash": 5,
+        "prove": 1132,
+        "verify": 326
+      },
+      "peak_node_mb": 365.3,
+      "peak_python_mb": 0
+    },
+    {
+      "file_id": "LA_E_9394669",
+      "label": "spoof",
+      "attack_id": "A18",
+      "ms_total": 4321,
+      "stage_ms": {
+        "audio": 0,
+        "detect": 2750,
+        "hash": 5,
+        "prove": 733,
+        "verify": 354
+      },
+      "peak_node_mb": 362.8,
+      "peak_python_mb": 0
+    },
+    {
+      "file_id": "LA_E_1440544",
+      "label": "spoof",
+      "attack_id": "A17",
+      "ms_total": 4318,
+      "stage_ms": {
+        "audio": 0,
+        "detect": 2728,
+        "hash": 8,
+        "prove": 498,
+        "verify": 349
+      },
+      "peak_node_mb": 337.8,
+      "peak_python_mb": 0
+    },
+    {
+      "file_id": "LA_E_4468356",
+      "label": "spoof",
+      "attack_id": "A15",
+      "ms_total": 4420,
+      "stage_ms": {
+        "audio": 0,
+        "detect": 2788,
+        "hash": 6,
+        "prove": 799,
+        "verify": 349
+      },
+      "peak_node_mb": 364.2,
+      "peak_python_mb": 0
+    },
+    {
+      "file_id": "LA_E_2418475",
+      "label": "spoof",
+      "attack_id": "A13",
+      "ms_total": 4305,
+      "stage_ms": {
+        "audio": 1,
+        "detect": 2720,
+        "hash": 5,
+        "prove": 465,
+        "verify": 310
+      },
+      "peak_node_mb": 345.4,
+      "peak_python_mb": 0
+    },
+    {
+      "file_id": "LA_E_7291384",
+      "label": "spoof",
+      "attack_id": "A10",
+      "ms_total": 4843,
+      "stage_ms": {
+        "audio": 0,
+        "detect": 2831,
+        "hash": 3,
+        "prove": 905,
+        "verify": 322
+      },
+      "peak_node_mb": 350.1,
+      "peak_python_mb": 0
+    },
+    {
+      "file_id": "LA_E_4332576",
+      "label": "spoof",
+      "attack_id": "A14",
+      "ms_total": 4342,
+      "stage_ms": {
+        "audio": 0,
+        "detect": 2712,
+        "hash": 7,
+        "prove": 489,
+        "verify": 320
+      },
+      "peak_node_mb": 352.4,
+      "peak_python_mb": 0
+    },
+    {
+      "file_id": "LA_E_1460951",
+      "label": "spoof",
+      "attack_id": "A11",
+      "ms_total": 4814,
+      "stage_ms": {
+        "audio": 0,
+        "detect": 2813,
+        "hash": 5,
+        "prove": 1004,
+        "verify": 318
+      },
+      "peak_node_mb": 365.7,
+      "peak_python_mb": 0
+    },
+    {
+      "file_id": "LA_E_9857739",
+      "label": "spoof",
+      "attack_id": "A09",
+      "ms_total": 4390,
+      "stage_ms": {
+        "audio": 0,
+        "detect": 2815,
+        "hash": 5,
+        "prove": 952,
+        "verify": 321
+      },
+      "peak_node_mb": 357.1,
+      "peak_python_mb": 0
+    },
+    {
+      "file_id": "LA_E_9181983",
+      "label": "spoof",
+      "attack_id": "A07",
+      "ms_total": 5339,
+      "stage_ms": {
+        "audio": 0,
+        "detect": 2944,
+        "hash": 10,
+        "prove": 1348,
+        "verify": 366
+      },
+      "peak_node_mb": 361.5,
+      "peak_python_mb": 0
+    },
+    {
+      "file_id": "LA_E_2311112",
+      "label": "spoof",
+      "attack_id": "A08",
+      "ms_total": 4384,
+      "stage_ms": {
+        "audio": 0,
+        "detect": 2766,
+        "hash": 4,
+        "prove": 722,
+        "verify": 324
+      },
+      "peak_node_mb": 361.5,
+      "peak_python_mb": 0
+    }
+  ],
+  "a4_proofs": [
+    {
+      "file_id": "LA_E_1250691",
+      "ms_total": 10121,
+      "stage_ms": {
+        "audio": 7,
+        "detect": 7828,
+        "hash": 13,
+        "prove": 1275,
+        "verify": 390
+      },
+      "peak_node_mb": 366,
+      "peak_python_mb": 0
+    },
+    {
+      "file_id": "LA_E_2038545",
+      "ms_total": 5925,
+      "stage_ms": {
+        "audio": 1,
+        "detect": 3483,
+        "hash": 13,
+        "prove": 1377,
+        "verify": 363
+      },
+      "peak_node_mb": 366.1,
+      "peak_python_mb": 0
+    },
+    {
+      "file_id": "LA_E_2142603",
+      "ms_total": 5472,
+      "stage_ms": {
+        "audio": 4,
+        "detect": 3442,
+        "hash": 14,
+        "prove": 1284,
+        "verify": 378
+      },
+      "peak_node_mb": 366.6,
+      "peak_python_mb": 0
+    },
+    {
+      "file_id": "LA_E_2424848",
+      "ms_total": 5368,
+      "stage_ms": {
+        "audio": 1,
+        "detect": 2969,
+        "hash": 13,
+        "prove": 1303,
+        "verify": 358
+      },
+      "peak_node_mb": 336.1,
+      "peak_python_mb": 0
+    },
+    {
+      "file_id": "LA_E_3268226",
+      "ms_total": 4855,
+      "stage_ms": {
+        "audio": 1,
+        "detect": 2984,
+        "hash": 13,
+        "prove": 1282,
+        "verify": 329
+      },
+      "peak_node_mb": 355.4,
+      "peak_python_mb": 0
+    },
+    {
+      "file_id": "LA_E_3471461",
+      "ms_total": 5400,
+      "stage_ms": {
+        "audio": 1,
+        "detect": 2926,
+        "hash": 12,
+        "prove": 1617,
+        "verify": 361
+      },
+      "peak_node_mb": 367.1,
+      "peak_python_mb": 0
+    },
+    {
+      "file_id": "LA_E_3745990",
+      "ms_total": 7074,
+      "stage_ms": {
+        "audio": 1,
+        "detect": 4896,
+        "hash": 14,
+        "prove": 1237,
+        "verify": 352
+      },
+      "peak_node_mb": 366.8,
+      "peak_python_mb": 0
+    },
+    {
+      "file_id": "LA_E_7328013",
+      "ms_total": 5425,
+      "stage_ms": {
+        "audio": 1,
+        "detect": 3370,
+        "hash": 14,
+        "prove": 1294,
+        "verify": 382
+      },
+      "peak_node_mb": 366.2,
+      "peak_python_mb": 0
+    },
+    {
+      "file_id": "LA_E_8313081",
+      "ms_total": 6982,
+      "stage_ms": {
+        "audio": 1,
+        "detect": 4563,
+        "hash": 8,
+        "prove": 1586,
+        "verify": 354
+      },
+      "peak_node_mb": 367,
+      "peak_python_mb": 0
+    },
+    {
+      "file_id": "LA_E_8374049",
+      "ms_total": 4825,
+      "stage_ms": {
+        "audio": 2,
+        "detect": 2841,
+        "hash": 3,
+        "prove": 963,
+        "verify": 360
+      },
+      "peak_node_mb": 364.6,
+      "peak_python_mb": 0
+    }
+  ],
+  "memprobe": [
+    {
+      "file_id": "LA_E_1000147",
+      "kind": "demo_workflow prove run (warm cache)",
+      "ms_total": 5965,
+      "peak_node_mb": 362,
+      "peak_python_mb": 908.2
+    }
+  ]
+}

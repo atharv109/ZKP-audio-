@@ -1,0 +1,10 @@
+case,policy,expected,holder_stage,actual,reason,proof_ms,verify_ms
+1 equal-cell (2 grid cells containing the value),"{""device_ids"": [1024, 2048, 4096], ""timestamp_range"": [1780297200, 1780304399], ...",ACCEPT,proved,ACCEPT,,728,677
+"2 same record, wide window (the enrollment-era window)","{""device_ids"": [1024, 2048, 4096], ""timestamp_range"": [1780279200, 1780865999], ...",ACCEPT,proved,ACCEPT,,636,665
+3 wider still (year-scale),"{""device_ids"": [1024, 2048, 4096], ""timestamp_range"": [1728000000, 1830239999], ...",ACCEPT,proved,ACCEPT,,727,673
+4 narrower-excluding (window ends before the value),"{""device_ids"": [1024, 2048, 4096], ""timestamp_range"": [1780279200, 1780286399], ...",REFUSE,refused,REFUSAL(exit 1),[holder] metadata does not satisfy policy: timestamp_range,223,
+5 device-excluded (allow-list without the hidden device),"{""device_ids"": [2048, 2048, 4096], ""timestamp_range"": [1780279200, 1780866000], ...",REFUSE,refused,REFUSAL(exit 1),"[holder] refusing: policy bounds not grid-aligned (timestamp_max+1=1780866001, grid 3600)",177,
+6 sensor_min BELOW the hidden value (stricter but satisfied),"{""device_ids"": [1024, 2048, 4096], ""timestamp_range"": [1780279200, 1780865999], ...",ACCEPT,proved,ACCEPT,,689,690
+7 sensor_min ABOVE the hidden value,"{""device_ids"": [1024, 2048, 4096], ""timestamp_range"": [1780279200, 1780866000], ...",REFUSE,refused,REFUSAL(exit 1),"[holder] refusing: policy bounds not grid-aligned (timestamp_max+1=1780866001, grid 3600)",186,
+"8 stale window (aligned, entirely in the past)","{""device_ids"": [1024, 2048, 4096], ""timestamp_range"": [1600002000, 1600009199], ...",REFUSE,refused,REFUSAL(exit 1),[holder] metadata does not satisfy policy: timestamp_range,142,
+"9 malformed (min > max -> policy VALIDATOR, not holder guard)","{""device_ids"": [1024, 2048, 4096], ""timestamp_range"": [1780297200, 1780282800], ...",EXIT2,refused,REFUSAL(exit 1),[holder] invalid policy: timestamp_range: min must be <= max (empty range policies are meaningless),161,

@@ -1,0 +1,81 @@
+{
+ "threshold": -0.944942612244898,
+ "scores": "final_outputs\\minnah_comparison\\dataset_acquisition\\merged_scores.csv",
+ "protocol": "ASVspoof2019_LA_cm_protocols\\ASVspoof2019.LA.cm.eval.trl.txt",
+ "rows": 71237,
+ "label_mismatches": 0,
+ "missing": 0,
+ "extra": 0,
+ "pooled": {
+  "spoof_accept_ge": [
+   7115,
+   63882
+  ],
+  "spoof_accept_gt": [
+   7115,
+   63882
+  ],
+  "bona_reject_lt": [
+   7,
+   7355
+  ],
+  "bona_reject_le": [
+   7,
+   7355
+  ]
+ },
+ "per_attack": {
+  "A07": [
+   950,
+   4914
+  ],
+  "A08": [
+   22,
+   4914
+  ],
+  "A09": [
+   0,
+   4914
+  ],
+  "A10": [
+   2443,
+   4914
+  ],
+  "A11": [
+   14,
+   4914
+  ],
+  "A12": [
+   996,
+   4914
+  ],
+  "A13": [
+   70,
+   4914
+  ],
+  "A14": [
+   0,
+   4914
+  ],
+  "A15": [
+   298,
+   4914
+  ],
+  "A16": [
+   119,
+   4914
+  ],
+  "A17": [
+   715,
+   4914
+  ],
+  "A18": [
+   1318,
+   4914
+  ],
+  "A19": [
+   170,
+   4914
+  ]
+ }
+}

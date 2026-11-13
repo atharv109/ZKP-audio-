@@ -1,0 +1,6 @@
+[D2/dev] items=24844 todo=23916 cached=928
+  [gate retry 0] RAM gate: 745 MB free before u3 D2/dev batch 0; >=2000 MB required
+  [gate retry 1] RAM gate: 1096 MB free before u3 D2/dev batch 0; >=2000 MB required
+  [gate retry 2] RAM gate: 1781 MB free before u3 D2/dev batch 0; >=2000 MB required
+  [gate retry 3] RAM gate: 1825 MB free before u3 D2/dev batch 0; >=2000 MB required
+  [gate retry 4] RAM gate: 1846 MB free before u3 D2/dev batch 0; >=2000 MB required

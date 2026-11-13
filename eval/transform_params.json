@@ -1,0 +1,905 @@
+{
+  "formulas": "see eval/transform_content.py docstring",
+  "per_file": {
+    "LA_E_1194478": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.010344)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.032712)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_1377603": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.015777)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.049890)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_1595601": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.011968)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.037846)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_1636866": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.010929)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.034562)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_1957903": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.015036)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.047550)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_1965693": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.012231)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.038679)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_2089289": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.011296)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.035720)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_2298835": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.012235)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.038690)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_2347990": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.011806)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.037333)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_2478039": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.011037)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.034901)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_2574797": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.013406)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.042393)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_2652508": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.009287)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.029367)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_2805188": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.009812)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.031028)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_2864879": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.008270)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.026153)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_3717751": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.012147)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.038413)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_3850599": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.006320)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.019987)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_4696956": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.009550)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.030199)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_4723563": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.009085)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.028728)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_4749618": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.012589)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.039811)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_4763073": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.009932)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.031409)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_4861696": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.014217)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.044958)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_4926497": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.014675)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.046408)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_5292305": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.009875)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.031226)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_5302082": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.012897)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.040783)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_5490678": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.011762)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.037194)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_5576566": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.009206)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.029112)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_5927801": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.012686)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.040115)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_5954653": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.010222)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.032325)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_6030759": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.011689)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.036964)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_6089598": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.011626)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.036765)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_6102028": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.011844)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.037453)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_6421290": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.014455)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.045712)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_6693511": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.012705)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.040176)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_6712126": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.012102)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.038271)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_6918683": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.009404)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.029737)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_6936182": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.011055)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.034957)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_7037209": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.012182)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.038522)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_7187204": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.011539)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.036489)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_7658022": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.013576)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.042931)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_7903545": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.008086)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.025569)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_7933041": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.008800)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.027828)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_8560414": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.007259)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.022954)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_8636129": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.015774)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.049883)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_8744180": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.006476)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.020480)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_8962616": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.006002)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.018980)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_9266084": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.012936)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.040907)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_9397037": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.011514)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.036411)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_9566748": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.008417)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.026618)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_9578484": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.009853)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.031157)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_9911328": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.008435)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.026673)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_1727412": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.012029)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.038038)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_9704852": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.014417)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.045589)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_1864159": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.017372)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.054934)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_3794021": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.014033)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.044377)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_1921685": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.021111)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.066759)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_3413183": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.014793)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.046779)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_5515010": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.016387)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.051821)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_5164877": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.013573)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.042921)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_2152501": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.009385)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.029679)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_8882034": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.012933)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.040896)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_2597509": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.011063)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.034983)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_9774521": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.008737)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.027628)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_1864664": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.013128)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.041516)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_2415884": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.011492)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.036340)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_7912467": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.014689)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.046451)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_6000129": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.021786)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.068892)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_5909051": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.015216)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.048117)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_9022318": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.015479)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.048950)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_7557201": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.018195)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.057538)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_3577316": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.014268)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.045119)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_2898854": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.016514)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.052222)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_2215094": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.011199)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.035414)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_5959045": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.012887)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.040753)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_1829043": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.013454)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.042544)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_9887619": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.013934)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.044063)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_4954330": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.009345)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.029551)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_6484639": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.015738)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.049768)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_3838346": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.010094)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.031919)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_2007559": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.015777)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.049892)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_9260249": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.011413)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.036092)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_2701987": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.014276)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.045146)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_5435533": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.012477)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.039456)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_8366418": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.018971)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.059991)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_6454935": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.012887)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.040753)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_7542603": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.012655)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.040018)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_1636611": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.016602)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.052501)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_8127722": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.008465)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.026769)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_7096664": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.012247)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.038728)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_2178426": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.010223)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.032327)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_6361420": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.013283)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.042003)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_2942094": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.017264)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.054594)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_2250990": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.018593)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.058795)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_3297269": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.017261)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.054584)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_9622407": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.012801)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.040481)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_5643865": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.017593)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.055635)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_2679545": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.013455)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.042548)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_9008846": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.009079)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.028712)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_7398449": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.013144)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.041564)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_7703061": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.010197)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.032247)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    },
+    "LA_E_9802124": {
+      "mp3_64k": "libmp3lame 64 kbps, decoded to 16 kHz mono FLAC",
+      "mp3_32k": "libmp3lame 32 kbps, decoded to 16 kHz mono FLAC",
+      "opus_32k": "libopus 32 kbps (ogg), decoded to 16 kHz mono FLAC",
+      "resample_8k_rt": "resample_poly 16k->8k (1:2) -> 16k (2:1), default Kaiser FIR",
+      "noise_20db": "additive white Gaussian at SNR 20 dB (scale 0.011429)",
+      "noise_10db": "additive white Gaussian at SNR 10 dB (scale 0.036142)",
+      "reverb_rt60_0.3s": "IR: tap0=1.0 direct + 4800-tap exp-decay noise (RT60 0.3 s), tail peak 0.5"
+    }
+  }
+}

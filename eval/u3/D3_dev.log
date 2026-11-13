@@ -1,0 +1,10 @@
+[D3/dev] items=4348 todo=4348 cached=0
+  batch 0: 32 (16178 ms py_peak 1031.4MB)
+Traceback (most recent call last):
+  File "eval\u3\score_u3.py", line 220, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "eval\u3\score_u3.py", line 209, in main
+    cache[row["file"]] = float(row["score"])
+                         ^^^^^^^^^^^^^^^^^^^
+TypeError: float() argument must be a string or a real number, not 'NoneType'

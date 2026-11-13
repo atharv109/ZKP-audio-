@@ -1,0 +1,11 @@
+[D2/dev] items=24844 todo=23916 cached=928
+  batch 0: 960 (23047 ms py_peak 1028.4MB)
+  batch 40: 2240 (9658 ms py_peak 1056.5MB)
+Traceback (most recent call last):
+  File "eval\u3\score_u3.py", line 183, in <module>
+    for i in range(0, len(todo), BATCH)]):
+
+  File "eval\u3\score_u3.py", line 172, in main
+    elif mode == "u1c2":
+                         
+TypeError: float() argument must be a string or a real number, not 'NoneType'

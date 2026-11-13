@@ -1,0 +1,13 @@
+file,label,prediction,score,correct
+ASVspoof2019_LA_dev\flac\LA_D_9997314.flac,unknown,spoof,-8.453977,
+ASVspoof2019_LA_dev\flac\LA_D_9997481.flac,unknown,spoof,-10.049715,
+ASVspoof2019_LA_dev\flac\LA_D_9997570.flac,unknown,spoof,-5.455863,
+ASVspoof2019_LA_dev\flac\LA_D_9997585.flac,unknown,spoof,-5.206028,
+ASVspoof2019_LA_dev\flac\LA_D_9997701.flac,unknown,bonafide,5.967734,
+ASVspoof2019_LA_dev\flac\LA_D_9997827.flac,unknown,spoof,-7.579515,
+ASVspoof2019_LA_dev\flac\LA_D_9998252.flac,unknown,spoof,-7.464719,
+ASVspoof2019_LA_dev\flac\LA_D_9998910.flac,unknown,spoof,-6.176466,
+ASVspoof2019_LA_dev\flac\LA_D_9999103.flac,unknown,spoof,-2.537269,
+ASVspoof2019_LA_dev\flac\LA_D_9999204.flac,unknown,spoof,-8.904470,
+ASVspoof2019_LA_dev\flac\LA_D_9999690.flac,unknown,spoof,-11.119225,
+ASVspoof2019_LA_dev\flac\LA_D_9999760.flac,unknown,spoof,-9.496514,

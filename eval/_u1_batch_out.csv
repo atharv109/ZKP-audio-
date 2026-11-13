@@ -1,0 +1,5 @@
+file,label,prediction,score,correct
+eval\u1\C2_segments\096_spoof_LA_E_1009324.wav,unknown,spoof,-3.232474,
+eval\u1\C2_segments\097_bonafide_LA_E_3293534.wav,unknown,spoof,-0.254132,
+eval\u1\C2_segments\098_spoof_LA_E_1004704.wav,unknown,spoof,-7.213527,
+eval\u1\C2_segments\099_bonafide_LA_E_3299996.wav,unknown,spoof,-2.103077,

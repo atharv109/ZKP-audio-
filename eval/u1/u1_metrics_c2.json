@@ -1,0 +1,784 @@
+{
+ "thresholds": {
+  "dev": -0.9449426,
+  "eval": 1.7635419737
+ },
+ "clean": {
+  "far_dev": [
+   0.12,
+   6,
+   50
+  ],
+  "far_eval": [
+   0.04,
+   2,
+   50
+  ],
+  "frr_dev": [
+   0.0,
+   0,
+   50
+  ],
+  "frr_eval": [
+   0.0,
+   0,
+   50
+  ],
+  "auc": 0.0004,
+  "eer": [
+   0.02,
+   2.728559
+  ],
+  "far_dev_ci95": [
+   0.04,
+   0.22
+  ],
+  "frr_dev_ci95": [
+   0.0,
+   0.0
+  ]
+ },
+ "laundered": {
+  "far_dev": [
+   0.02,
+   1,
+   50
+  ],
+  "far_eval": [
+   0.0,
+   0,
+   50
+  ],
+  "frr_dev": [
+   0.68,
+   34,
+   50
+  ],
+  "frr_eval": [
+   0.96,
+   48,
+   50
+  ],
+  "auc": 0.1628,
+  "eer": [
+   0.22,
+   -3.256456
+  ],
+  "far_dev_ci95": [
+   0.0,
+   0.06
+  ],
+  "frr_dev_ci95": [
+   0.56,
+   0.8
+  ]
+ },
+ "paired_shift": {
+  "median": -4.206875999999999,
+  "mean": -3.9912496099999992,
+  "q10": -9.7441564,
+  "q90": 2.276377200000004
+ },
+ "per_clip": [
+  {
+   "file_id": "LA_E_1002769",
+   "kind": "spoof",
+   "attack_id": "A07",
+   "laundered": -2.775188,
+   "clean": -3.213187
+  },
+  {
+   "file_id": "LA_E_1061586",
+   "kind": "bonafide",
+   "attack_id": "",
+   "laundered": 2.802129,
+   "clean": 8.266132
+  },
+  {
+   "file_id": "LA_E_1002073",
+   "kind": "spoof",
+   "attack_id": "A08",
+   "laundered": -7.419306,
+   "clean": -9.310734
+  },
+  {
+   "file_id": "LA_E_1073886",
+   "kind": "bonafide",
+   "attack_id": "",
+   "laundered": -3.824907,
+   "clean": 3.811889
+  },
+  {
+   "file_id": "LA_E_1000841",
+   "kind": "spoof",
+   "attack_id": "A09",
+   "laundered": -4.302244,
+   "clean": -9.864733
+  },
+  {
+   "file_id": "LA_E_1096390",
+   "kind": "bonafide",
+   "attack_id": "",
+   "laundered": 0.72339,
+   "clean": 8.2165
+  },
+  {
+   "file_id": "LA_E_1000147",
+   "kind": "spoof",
+   "attack_id": "A10",
+   "laundered": -2.702064,
+   "clean": -1.303891
+  },
+  {
+   "file_id": "LA_E_1102017",
+   "kind": "bonafide",
+   "attack_id": "",
+   "laundered": -1.822253,
+   "clean": 5.627356
+  },
+  {
+   "file_id": "LA_E_1000791",
+   "kind": "spoof",
+   "attack_id": "A11",
+   "laundered": -4.684904,
+   "clean": -3.694543
+  },
+  {
+   "file_id": "LA_E_1152151",
+   "kind": "bonafide",
+   "attack_id": "",
+   "laundered": -0.476143,
+   "clean": 7.675694
+  },
+  {
+   "file_id": "LA_E_1001476",
+   "kind": "spoof",
+   "attack_id": "A12",
+   "laundered": -1.862867,
+   "clean": -1.299354
+  },
+  {
+   "file_id": "LA_E_1285825",
+   "kind": "bonafide",
+   "attack_id": "",
+   "laundered": 0.676728,
+   "clean": 6.491293
+  },
+  {
+   "file_id": "LA_E_1001964",
+   "kind": "spoof",
+   "attack_id": "A13",
+   "laundered": -4.552597,
+   "clean": -5.344296
+  },
+  {
+   "file_id": "LA_E_1342706",
+   "kind": "bonafide",
+   "attack_id": "",
+   "laundered": -0.490463,
+   "clean": 7.7722
+  },
+  {
+   "file_id": "LA_E_1000989",
+   "kind": "spoof",
+   "attack_id": "A14",
+   "laundered": -3.412085,
+   "clean": -3.736853
+  },
+  {
+   "file_id": "LA_E_1370800",
+   "kind": "bonafide",
+   "attack_id": "",
+   "laundered": -2.532733,
+   "clean": 6.865909
+  },
+  {
+   "file_id": "LA_E_1000273",
+   "kind": "spoof",
+   "attack_id": "A15",
+   "laundered": -4.337256,
+   "clean": -2.272639
+  },
+  {
+   "file_id": "LA_E_1432098",
+   "kind": "bonafide",
+   "attack_id": "",
+   "laundered": 1.128012,
+   "clean": 6.363471
+  },
+  {
+   "file_id": "LA_E_1003846",
+   "kind": "spoof",
+   "attack_id": "A16",
+   "laundered": -4.475116,
+   "clean": -7.144516
+  },
+  {
+   "file_id": "LA_E_1439559",
+   "kind": "bonafide",
+   "attack_id": "",
+   "laundered": -1.852752,
+   "clean": 5.296005
+  },
+  {
+   "file_id": "LA_E_1001232",
+   "kind": "spoof",
+   "attack_id": "A17",
+   "laundered": -7.033725,
+   "clean": -9.241033
+  },
+  {
+   "file_id": "LA_E_1489624",
+   "kind": "bonafide",
+   "attack_id": "",
+   "laundered": -0.828926,
+   "clean": 7.03877
+  },
+  {
+   "file_id": "LA_E_1001976",
+   "kind": "spoof",
+   "attack_id": "A18",
+   "laundered": -1.239466,
+   "clean": 2.728559
+  },
+  {
+   "file_id": "LA_E_1510369",
+   "kind": "bonafide",
+   "attack_id": "",
+   "laundered": -4.869724,
+   "clean": 5.70504
+  },
+  {
+   "file_id": "LA_E_1002282",
+   "kind": "spoof",
+   "attack_id": "A19",
+   "laundered": -5.842058,
+   "clean": -3.101087
+  },
+  {
+   "file_id": "LA_E_1605288",
+   "kind": "bonafide",
+   "attack_id": "",
+   "laundered": 0.561654,
+   "clean": 6.773797
+  },
+  {
+   "file_id": "LA_E_1006026",
+   "kind": "spoof",
+   "attack_id": "A07",
+   "laundered": -4.992963,
+   "clean": -5.738426
+  },
+  {
+   "file_id": "LA_E_1616928",
+   "kind": "bonafide",
+   "attack_id": "",
+   "laundered": -3.035091,
+   "clean": 7.54221
+  },
+  {
+   "file_id": "LA_E_1002394",
+   "kind": "spoof",
+   "attack_id": "A08",
+   "laundered": -8.22028,
+   "clean": -10.403942
+  },
+  {
+   "file_id": "LA_E_1636665",
+   "kind": "bonafide",
+   "attack_id": "",
+   "laundered": -2.786212,
+   "clean": 8.332051
+  },
+  {
+   "file_id": "LA_E_1001893",
+   "kind": "spoof",
+   "attack_id": "A09",
+   "laundered": -5.219817,
+   "clean": -9.380065
+  },
+  {
+   "file_id": "LA_E_1649471",
+   "kind": "bonafide",
+   "attack_id": "",
+   "laundered": -3.668288,
+   "clean": 3.6722
+  },
+  {
+   "file_id": "LA_E_1001320",
+   "kind": "spoof",
+   "attack_id": "A10",
+   "laundered": -3.738643,
+   "clean": 0.707084
+  },
+  {
+   "file_id": "LA_E_1654130",
+   "kind": "bonafide",
+   "attack_id": "",
+   "laundered": -4.712192,
+   "clean": 5.296965
+  },
+  {
+   "file_id": "LA_E_1001227",
+   "kind": "spoof",
+   "attack_id": "A11",
+   "laundered": -4.873089,
+   "clean": -3.848021
+  },
+  {
+   "file_id": "LA_E_1704953",
+   "kind": "bonafide",
+   "attack_id": "",
+   "laundered": -3.666136,
+   "clean": 6.882097
+  },
+  {
+   "file_id": "LA_E_1006563",
+   "kind": "spoof",
+   "attack_id": "A12",
+   "laundered": -4.117589,
+   "clean": -4.647427
+  },
+  {
+   "file_id": "LA_E_1725200",
+   "kind": "bonafide",
+   "attack_id": "",
+   "laundered": -0.599494,
+   "clean": 8.700799
+  },
+  {
+   "file_id": "LA_E_1005307",
+   "kind": "spoof",
+   "attack_id": "A13",
+   "laundered": -6.026765,
+   "clean": -3.208498
+  },
+  {
+   "file_id": "LA_E_1729203",
+   "kind": "bonafide",
+   "attack_id": "",
+   "laundered": -3.256456,
+   "clean": 5.0757
+  },
+  {
+   "file_id": "LA_E_1004506",
+   "kind": "spoof",
+   "attack_id": "A14",
+   "laundered": -6.207866,
+   "clean": -9.338306
+  },
+  {
+   "file_id": "LA_E_1741926",
+   "kind": "bonafide",
+   "attack_id": "",
+   "laundered": -1.527464,
+   "clean": 7.895842
+  },
+  {
+   "file_id": "LA_E_1002802",
+   "kind": "spoof",
+   "attack_id": "A15",
+   "laundered": -3.659832,
+   "clean": -3.742648
+  },
+  {
+   "file_id": "LA_E_1831235",
+   "kind": "bonafide",
+   "attack_id": "",
+   "laundered": -3.027893,
+   "clean": 5.69145
+  },
+  {
+   "file_id": "LA_E_1004546",
+   "kind": "spoof",
+   "attack_id": "A16",
+   "laundered": -2.796306,
+   "clean": -5.651547
+  },
+  {
+   "file_id": "LA_E_1955285",
+   "kind": "bonafide",
+   "attack_id": "",
+   "laundered": -5.688433,
+   "clean": 4.535899
+  },
+  {
+   "file_id": "LA_E_1002947",
+   "kind": "spoof",
+   "attack_id": "A17",
+   "laundered": -4.996515,
+   "clean": 1.876684
+  },
+  {
+   "file_id": "LA_E_1967135",
+   "kind": "bonafide",
+   "attack_id": "",
+   "laundered": -3.556772,
+   "clean": 5.529104
+  },
+  {
+   "file_id": "LA_E_1002683",
+   "kind": "spoof",
+   "attack_id": "A18",
+   "laundered": -3.508025,
+   "clean": -0.285414
+  },
+  {
+   "file_id": "LA_E_2016932",
+   "kind": "bonafide",
+   "attack_id": "",
+   "laundered": -2.524165,
+   "clean": 6.734751
+  },
+  {
+   "file_id": "LA_E_1003257",
+   "kind": "spoof",
+   "attack_id": "A19",
+   "laundered": -3.96184,
+   "clean": -3.652657
+  },
+  {
+   "file_id": "LA_E_2097442",
+   "kind": "bonafide",
+   "attack_id": "",
+   "laundered": 1.616629,
+   "clean": 6.444528
+  },
+  {
+   "file_id": "LA_E_1006831",
+   "kind": "spoof",
+   "attack_id": "A07",
+   "laundered": -6.797907,
+   "clean": -6.322564
+  },
+  {
+   "file_id": "LA_E_2161075",
+   "kind": "bonafide",
+   "attack_id": "",
+   "laundered": -2.614406,
+   "clean": 6.439621
+  },
+  {
+   "file_id": "LA_E_1002658",
+   "kind": "spoof",
+   "attack_id": "A08",
+   "laundered": -5.287076,
+   "clean": -9.305944
+  },
+  {
+   "file_id": "LA_E_2163780",
+   "kind": "bonafide",
+   "attack_id": "",
+   "laundered": -2.560638,
+   "clean": 6.67347
+  },
+  {
+   "file_id": "LA_E_1003768",
+   "kind": "spoof",
+   "attack_id": "A09",
+   "laundered": -5.326451,
+   "clean": -10.542398
+  },
+  {
+   "file_id": "LA_E_2166857",
+   "kind": "bonafide",
+   "attack_id": "",
+   "laundered": -2.909627,
+   "clean": 6.399309
+  },
+  {
+   "file_id": "LA_E_1002474",
+   "kind": "spoof",
+   "attack_id": "A10",
+   "laundered": -3.08517,
+   "clean": -1.321475
+  },
+  {
+   "file_id": "LA_E_2221290",
+   "kind": "bonafide",
+   "attack_id": "",
+   "laundered": -1.837326,
+   "clean": 6.777492
+  },
+  {
+   "file_id": "LA_E_1005177",
+   "kind": "spoof",
+   "attack_id": "A11",
+   "laundered": -4.034859,
+   "clean": -3.862339
+  },
+  {
+   "file_id": "LA_E_2288596",
+   "kind": "bonafide",
+   "attack_id": "",
+   "laundered": -4.426687,
+   "clean": 4.65795
+  },
+  {
+   "file_id": "LA_E_1014516",
+   "kind": "spoof",
+   "attack_id": "A12",
+   "laundered": -4.008721,
+   "clean": -1.979522
+  },
+  {
+   "file_id": "LA_E_2366626",
+   "kind": "bonafide",
+   "attack_id": "",
+   "laundered": -2.880734,
+   "clean": 7.229959
+  },
+  {
+   "file_id": "LA_E_1008108",
+   "kind": "spoof",
+   "attack_id": "A13",
+   "laundered": -2.158299,
+   "clean": -2.767116
+  },
+  {
+   "file_id": "LA_E_2379520",
+   "kind": "bonafide",
+   "attack_id": "",
+   "laundered": -2.114276,
+   "clean": 4.280161
+  },
+  {
+   "file_id": "LA_E_1011107",
+   "kind": "spoof",
+   "attack_id": "A14",
+   "laundered": -4.671857,
+   "clean": -8.452473
+  },
+  {
+   "file_id": "LA_E_2383074",
+   "kind": "bonafide",
+   "attack_id": "",
+   "laundered": -1.049533,
+   "clean": 7.499756
+  },
+  {
+   "file_id": "LA_E_1002990",
+   "kind": "spoof",
+   "attack_id": "A15",
+   "laundered": -5.895934,
+   "clean": -5.881514
+  },
+  {
+   "file_id": "LA_E_2386688",
+   "kind": "bonafide",
+   "attack_id": "",
+   "laundered": -4.056798,
+   "clean": 5.579898
+  },
+  {
+   "file_id": "LA_E_1008606",
+   "kind": "spoof",
+   "attack_id": "A16",
+   "laundered": -3.502738,
+   "clean": -6.348788
+  },
+  {
+   "file_id": "LA_E_2476450",
+   "kind": "bonafide",
+   "attack_id": "",
+   "laundered": 1.793876,
+   "clean": 3.01717
+  },
+  {
+   "file_id": "LA_E_1004665",
+   "kind": "spoof",
+   "attack_id": "A17",
+   "laundered": -3.393522,
+   "clean": -2.033198
+  },
+  {
+   "file_id": "LA_E_2555952",
+   "kind": "bonafide",
+   "attack_id": "",
+   "laundered": -1.39574,
+   "clean": 7.179924
+  },
+  {
+   "file_id": "LA_E_1003530",
+   "kind": "spoof",
+   "attack_id": "A18",
+   "laundered": -3.395767,
+   "clean": -1.768897
+  },
+  {
+   "file_id": "LA_E_2616351",
+   "kind": "bonafide",
+   "attack_id": "",
+   "laundered": 0.594983,
+   "clean": 6.105194
+  },
+  {
+   "file_id": "LA_E_1004940",
+   "kind": "spoof",
+   "attack_id": "A19",
+   "laundered": -5.73815,
+   "clean": -2.130292
+  },
+  {
+   "file_id": "LA_E_2622522",
+   "kind": "bonafide",
+   "attack_id": "",
+   "laundered": 1.203601,
+   "clean": 6.683167
+  },
+  {
+   "file_id": "LA_E_1006886",
+   "kind": "spoof",
+   "attack_id": "A07",
+   "laundered": 0.863793,
+   "clean": -0.892977
+  },
+  {
+   "file_id": "LA_E_2650697",
+   "kind": "bonafide",
+   "attack_id": "",
+   "laundered": -3.649092,
+   "clean": 6.957764
+  },
+  {
+   "file_id": "LA_E_1009254",
+   "kind": "spoof",
+   "attack_id": "A08",
+   "laundered": -4.982201,
+   "clean": -6.92369
+  },
+  {
+   "file_id": "LA_E_2825647",
+   "kind": "bonafide",
+   "attack_id": "",
+   "laundered": 0.198012,
+   "clean": 6.323416
+  },
+  {
+   "file_id": "LA_E_1007069",
+   "kind": "spoof",
+   "attack_id": "A09",
+   "laundered": -6.631632,
+   "clean": -8.804041
+  },
+  {
+   "file_id": "LA_E_2845160",
+   "kind": "bonafide",
+   "attack_id": "",
+   "laundered": -2.828816,
+   "clean": 6.859955
+  },
+  {
+   "file_id": "LA_E_1006317",
+   "kind": "spoof",
+   "attack_id": "A10",
+   "laundered": -4.548069,
+   "clean": -1.960772
+  },
+  {
+   "file_id": "LA_E_2852583",
+   "kind": "bonafide",
+   "attack_id": "",
+   "laundered": 0.339212,
+   "clean": 2.065835
+  },
+  {
+   "file_id": "LA_E_1005565",
+   "kind": "spoof",
+   "attack_id": "A11",
+   "laundered": -4.464449,
+   "clean": -4.967655
+  },
+  {
+   "file_id": "LA_E_2947509",
+   "kind": "bonafide",
+   "attack_id": "",
+   "laundered": -3.106649,
+   "clean": 6.72518
+  },
+  {
+   "file_id": "LA_E_1015648",
+   "kind": "spoof",
+   "attack_id": "A12",
+   "laundered": -1.559247,
+   "clean": 0.99998
+  },
+  {
+   "file_id": "LA_E_2970071",
+   "kind": "bonafide",
+   "attack_id": "",
+   "laundered": -2.29904,
+   "clean": 5.689952
+  },
+  {
+   "file_id": "LA_E_1009522",
+   "kind": "spoof",
+   "attack_id": "A13",
+   "laundered": -4.968526,
+   "clean": -2.827598
+  },
+  {
+   "file_id": "LA_E_2992403",
+   "kind": "bonafide",
+   "attack_id": "",
+   "laundered": -5.140517,
+   "clean": 7.512427
+  },
+  {
+   "file_id": "LA_E_1011816",
+   "kind": "spoof",
+   "attack_id": "A14",
+   "laundered": -2.443285,
+   "clean": -7.825154
+  },
+  {
+   "file_id": "LA_E_3046026",
+   "kind": "bonafide",
+   "attack_id": "",
+   "laundered": -1.384408,
+   "clean": 5.724091
+  },
+  {
+   "file_id": "LA_E_1003228",
+   "kind": "spoof",
+   "attack_id": "A15",
+   "laundered": -4.925277,
+   "clean": -2.893269
+  },
+  {
+   "file_id": "LA_E_3289697",
+   "kind": "bonafide",
+   "attack_id": "",
+   "laundered": -2.4394,
+   "clean": 7.295015
+  },
+  {
+   "file_id": "LA_E_1009324",
+   "kind": "spoof",
+   "attack_id": "A16",
+   "laundered": -3.232474,
+   "clean": -5.465182
+  },
+  {
+   "file_id": "LA_E_3293534",
+   "kind": "bonafide",
+   "attack_id": "",
+   "laundered": -0.254132,
+   "clean": 5.830666
+  },
+  {
+   "file_id": "LA_E_1004704",
+   "kind": "spoof",
+   "attack_id": "A17",
+   "laundered": -7.213527,
+   "clean": -6.434564
+  },
+  {
+   "file_id": "LA_E_3299996",
+   "kind": "bonafide",
+   "attack_id": "",
+   "laundered": -2.103077,
+   "clean": 5.683951
+  }
+ ]
+}

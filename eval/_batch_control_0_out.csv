@@ -1,0 +1,11 @@
+file,label,prediction,score,correct
+outputs\v3\eval_content\control_crops\LA_E_1194478_0.1_end.flac,unknown,bonafide,4.929694,
+outputs\v3\eval_content\control_crops\LA_E_1377603_0.1_end.flac,unknown,bonafide,7.533827,
+outputs\v3\eval_content\control_crops\LA_E_1595601_0.1_end.flac,unknown,bonafide,3.867447,
+outputs\v3\eval_content\control_crops\LA_E_1636866_0.1_end.flac,unknown,bonafide,3.048610,
+outputs\v3\eval_content\control_crops\LA_E_1957903_0.1_end.flac,unknown,bonafide,7.149997,
+outputs\v3\eval_content\control_crops\LA_E_1965693_0.1_end.flac,unknown,bonafide,5.452133,
+outputs\v3\eval_content\control_crops\LA_E_2089289_0.1_end.flac,unknown,bonafide,0.152439,
+outputs\v3\eval_content\control_crops\LA_E_2347990_0.1_end.flac,unknown,bonafide,3.901974,
+outputs\v3\eval_content\control_crops\LA_E_2574797_0.1_end.flac,unknown,bonafide,8.695026,
+outputs\v3\eval_content\control_crops\LA_E_2652508_0.1_end.flac,unknown,bonafide,5.836786,

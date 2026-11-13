@@ -1,0 +1,86 @@
+{
+  "pooled": {
+    "n_bona": 7355,
+    "n_spoof": 63882,
+    "frr_eval": 73,
+    "frr_dev": 7,
+    "far_eval": 633,
+    "far_dev": 7115
+  },
+  "per_attack": {
+    "A07": {
+      "n": 4914,
+      "far_eval": 3,
+      "far_dev": 950
+    },
+    "A08": {
+      "n": 4914,
+      "far_eval": 0,
+      "far_dev": 22
+    },
+    "A09": {
+      "n": 4914,
+      "far_eval": 0,
+      "far_dev": 0
+    },
+    "A10": {
+      "n": 4914,
+      "far_eval": 50,
+      "far_dev": 2443
+    },
+    "A11": {
+      "n": 4914,
+      "far_eval": 0,
+      "far_dev": 14
+    },
+    "A12": {
+      "n": 4914,
+      "far_eval": 6,
+      "far_dev": 996
+    },
+    "A13": {
+      "n": 4914,
+      "far_eval": 0,
+      "far_dev": 70
+    },
+    "A14": {
+      "n": 4914,
+      "far_eval": 0,
+      "far_dev": 0
+    },
+    "A15": {
+      "n": 4914,
+      "far_eval": 13,
+      "far_dev": 298
+    },
+    "A16": {
+      "n": 4914,
+      "far_eval": 19,
+      "far_dev": 119
+    },
+    "A17": {
+      "n": 4914,
+      "far_eval": 169,
+      "far_dev": 715
+    },
+    "A18": {
+      "n": 4914,
+      "far_eval": 345,
+      "far_dev": 1318
+    },
+    "A19": {
+      "n": 4914,
+      "far_eval": 28,
+      "far_dev": 170
+    }
+  },
+  "bona_below_dev_threshold": [
+    "LA_E_6592171",
+    "LA_E_2168860",
+    "LA_E_4903415",
+    "LA_E_7138609",
+    "LA_E_7858055",
+    "LA_E_3017534",
+    "LA_E_1450790"
+  ]
+}

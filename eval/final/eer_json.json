@@ -1,0 +1,20 @@
+{
+ "scores": "eval/dev_scores.json",
+ "labels": "eval/dev_labels.csv",
+ "n_bonafide": 2548,
+ "n_spoof": 22296,
+ "A_discrete": {
+  "eer": 0.00510753278706531,
+  "threshold": -0.947072,
+  "far": 0.00511302475780409,
+  "frr": 0.00510204081632653
+ },
+ "B_lininterp": {
+  "eer": 0.00510204081632653,
+  "threshold": -0.944942612244898
+ },
+ "C_scipy_roc": {
+  "eer": 0.005102040816226486
+ },
+ "auc_bona_higher": 0.9996414024747102
+}
